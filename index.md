@@ -8,12 +8,12 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 This is the audio demo part.
 
 <audio controls>
-  <source src="wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+  <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 
 <audio controls>
-  <source src="wav/Mix_Atrophy_01L.wav" type="audio/wav">
+  <source src="./wav/Mix_Atrophy_01L.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 
