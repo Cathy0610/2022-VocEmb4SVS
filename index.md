@@ -10,6 +10,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Your browser does not support the audio element.
 </audio>
 
+<audio controls>
+  <source src="wav/Mix_Atrophy_01L.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
