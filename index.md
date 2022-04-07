@@ -33,7 +33,11 @@ This is the audio demo part.
 
 ### ResUNet
 <!-- <html> -->
-  <table style="margin-left: auto; margin-right: auto; align:center">
+<style>
+  th, tr, td {border: none!important;}
+</style>
+  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+  <th colspan=2> Case 1 </th>
         <tr>
             <td align='center'>
               <b> Mixture </b>
