@@ -37,6 +37,11 @@ This is the audio demo part.
     <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
   Your browser does not support the audio element.
   </audio>
+  
+  <audio controls>
+    <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
+  Your browser does not support the audio element.
+  </audio>
 </div>
 
 <div align='center'>
