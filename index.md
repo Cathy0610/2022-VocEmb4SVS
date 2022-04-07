@@ -33,9 +33,9 @@ This is the audio demo part.
 
 ### ResUNet
 <!-- <html> -->
-<style>
+<!-- <style>
   th, tr, td {border: none!important;}
-</style>
+</style> -->
   <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
   <th colspan=2> Case 1 </th>
         <tr>
