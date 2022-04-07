@@ -43,7 +43,14 @@ Your browser does not support the audio element.
   <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
-![res1](./fig/ResUNet_Atrophy_01-1.png)
+
+<div align='center'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+ </div>
+
 ![res2](./fig/ResUNet_Atrophy_01-2.png)
 
 ## preFro
