@@ -13,11 +13,13 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Audio demo
 This is the audio demo part.
+
 ## Mix
 <audio controls>
   <source src="./wav/Mix_Atrophy_01L.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
+
 ## MixL
 <audio controls>
   <source src="./wav/Mix_Atrophy_01L.wav" type="audio/wav">
@@ -29,9 +31,22 @@ Your browser does not support the audio element.
   <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
+
 ## HDemucs_upd2
 <audio controls>
   <source src="./wav/HDemucsUpd2_Atrophy_01.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+## ResUNet
+<audio controls>
+  <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+## preFro
+<audio controls>
+  <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 
