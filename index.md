@@ -13,17 +13,27 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Audio demo
 This is the audio demo part.
-
+## Mix
 <audio controls>
-  <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+  <source src="./wav/Mix_Atrophy_01L.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
-
+## MixL
 <audio controls>
   <source src="./wav/Mix_Atrophy_01L.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 
+## HDemucs
+<audio controls>
+  <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+## HDemucs_upd2
+<audio controls>
+  <source src="./wav/HDemucsUpd2_Atrophy_01.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
 
 # Header 1
 
@@ -35,7 +45,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+<!-- ### Header 3
 
 ```js
 // Javascript code with syntax highlighting.
@@ -62,7 +72,7 @@ end
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+3.  This is an ordered list following a header. -->
 
 ###### Header 6
 
@@ -76,7 +86,7 @@ end
 ### There's a horizontal rule below this.
 
 * * *
-
+<!-- 
 ### Here is an unordered list:
 
 *   Item foo
@@ -106,7 +116,7 @@ end
   - level 2 item
   - level 2 item
 - level 1 item
-
+ -->
 ### Small image
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
