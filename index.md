@@ -43,6 +43,8 @@ Your browser does not support the audio element.
   <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
+![res1](./fig/ResUNet_Atrophy_01-1.png)
+![res2](./fig/ResUNet_Atrophy_01-2.png)
 
 ## preFro
 <audio controls>
