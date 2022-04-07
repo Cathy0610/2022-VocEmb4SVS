@@ -38,11 +38,26 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
-## ResUNet
-### Case 1
+## Case 1
+### ResUNet
 <div align='center'>
   <audio controls>
     <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+  Your browser does not support the audio element.
+  </audio>
+</div>
+
+<div align='center'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+ </div>
+
+### VocEmb4Sep+ResUNet
+<div align='center'>
+  <audio controls>
+    <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
   Your browser does not support the audio element.
   </audio>
 </div>
