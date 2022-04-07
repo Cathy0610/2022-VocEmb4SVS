@@ -1,3 +1,9 @@
+# IS2022-VocEmb4Sep
+
+This is a demo website for VocEmb4Sep submitted to Interspeech 2022.
+
+You can visit the website on https://cathy0610.github.io/IS2022-VocEmb4Sep-SVS.github.io/.
+
 # The Slate theme
 
 [![Build Status](https://travis-ci.org/pages-themes/slate.svg?branch=master)](https://travis-ci.org/pages-themes/slate) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-slate.svg)](https://badge.fury.io/rb/jekyll-theme-slate)
@@ -21,10 +27,10 @@ To use the Slate theme:
     ```ruby
     gem "github-pages", group: :jekyll_plugins
     ```
-
+<!-- 
 ## Customizing
 
-### Configuration variables
+### Configuration variables -->
 
 Slate will respect the following variables, if set in your site's `_config.yml`:
 
