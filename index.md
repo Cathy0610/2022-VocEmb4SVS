@@ -32,6 +32,103 @@ This is the audio demo part.
  </div>
 
 ### ResUNet
+<html>
+  <table style="margin-left: auto; margin-right: auto; align:center">
+        <tr>
+            <td align='center'>
+                **Mixture**
+            </td>
+            <td align='center'>
+                **Clean**
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                  <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>            
+                <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='100%'>
+            </td>
+            <td>
+                <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='100%'>
+            </td>
+        </tr>
+        <tr>
+            <td align='center'>
+                **Mixture**
+            </td>
+            <td align='center'>
+                **Clean**
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                  <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>            
+                <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='100%'>
+            </td>
+            <td>
+                <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='100%'>
+            </td>
+        </tr>
+        <tr>
+            <td align='center'>
+                **Mixture**
+            </td>
+            <td align='center'>
+                **Clean**
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                  <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                  <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>            
+                <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='100%'>
+            </td>
+            <td>
+                <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='100%'>
+            </td>
+        </tr>
+    </table>
+</html>
+ 
+</div>
+ 
 <div align='center'>
   <audio controls>
     <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
