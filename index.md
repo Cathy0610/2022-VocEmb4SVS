@@ -32,24 +32,24 @@ This is the audio demo part.
  </div>
 
 ### ResUNet
-<html>
+<!-- <html> -->
   <table style="margin-left: auto; margin-right: auto; align:center">
         <tr>
             <td align='center'>
-                **Mixture**
+              <b> Mixture </b>
             </td>
             <td align='center'>
-                **Clean**
+              <b> Clean </b>
             </td>
         </tr>
         <tr>
-            <td>
+            <td align='center'>
                 <audio controls>
                   <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
                 Your browser does not support the audio element.
                 </audio>
             </td>
-            <td>
+            <td align='center'>
                 <audio controls>
                   <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
                 Your browser does not support the audio element.
@@ -125,7 +125,7 @@ This is the audio demo part.
             </td>
         </tr>
     </table>
-</html>
+<!-- </html> -->
  
 </div>
  
