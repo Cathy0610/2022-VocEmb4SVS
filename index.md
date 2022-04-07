@@ -10,6 +10,21 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+
+# Audio demo
+This is the audio demo part.
+
+<audio controls>
+  <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="./wav/Mix_Atrophy_01L.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
