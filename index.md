@@ -14,31 +14,23 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # Audio demo
 This is the audio demo part.
 
-## Mix
-<audio controls>
-  <source src="./wav/Mix_Atrophy_01L.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-
-## MixL
-<audio controls>
-  <source src="./wav/Mix_Atrophy_01L.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-
-## HDemucs
-<audio controls>
-  <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-
-## HDemucs_upd2
-<audio controls>
-  <source src="./wav/HDemucsUpd2_Atrophy_01.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-
 ## Case 1
+
+### Mixture
+<div align='center'>
+  <audio controls>
+    <source src="./wav/Mix_Atrophy_01.wav" type="audio/wav">
+  Your browser does not support the audio element.
+  </audio>
+</div>
+
+<div align='center'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+ </div>
+
 ### ResUNet
 <div align='center'>
   <audio controls>
@@ -69,6 +61,35 @@ Your browser does not support the audio element.
   <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
  </div>
 
+### HDemucs
+<div align='center'>
+  <audio controls>
+    <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+  Your browser does not support the audio element.
+  </audio>
+</div>
+
+<div align='center'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+ </div>
+
+### VocEmb4Sep+HDemucs
+<div align='center'>
+  <audio controls>
+    <source src="./wav/HDemucsUpd2_Atrophy_01.wav" type="audio/wav">
+  Your browser does not support the audio element.
+  </audio>
+</div>
+
+<div align='center'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+ </div>
 
 <!-- ![res2](./fig/ResUNet_Atrophy_01-2.png) -->
 
