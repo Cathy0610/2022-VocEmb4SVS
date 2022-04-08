@@ -10,12 +10,10 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-
-# Audio demo
-This is the audio demo part.
-
-## Case 1
-
+<details>
+<summary><mark>Please click here!</mark></summary>
+Hi   Welcome to hiden space!
+  
 ### Mixture
 <div align='center'>
   <audio controls>
@@ -30,6 +28,13 @@ This is the audio demo part.
   <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
   <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
  </div>
+
+</details>
+
+# Audio demo
+This is the audio demo part.
+
+## Case 1
 
 ### ResUNet
 <!-- <html> -->
