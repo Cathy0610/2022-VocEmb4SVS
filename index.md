@@ -39,32 +39,32 @@ This is the audio demo part.
 <div align='center'>
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr>
-    <td>Mixture</td>
+      <td align='center'> <b>Mixture</b> </td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
         <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
     </tr>
     <tr>
-    <td>ResUNetDecouple+</td>
+      <td align='center'> <b>ResUNetDecouple+</b> </td>
         <td> <img src='./fig/ResUNet01S1.PNG'  alt='res01s1' width='100%'></td>
         <td> <img src='./fig/ResUNet01WV1.PNG'  alt='res01wv1' width='100%'></td>
     </tr>
     <tr>
-    <td>VocEmb4Sep (ResUNetDecouple+)</td>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
         <td> <img src='./fig/preFro01S1.PNG'  alt='pre01s1' width='100%'></td>
         <td> <img src='./fig/preFro01WV1.PNG'  alt='pre01wv1' width='100%'></td>
     </tr>
     <tr>
-    <td>HDemucs</td>
+      <td align='center'> <b>HDemucs</b> </td>
         <td> <img src='./fig/HDemucs01S1.PNG'  alt='hdemucs01s1' width='100%'></td>
         <td> <img src='./fig/HDemucs01WV1.PNG'  alt='hdemucs01wv1' width='100%'></td>
     </tr>
     <tr>
-    <td>VocEmb4Sep (HDemucs)</td>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
         <td> <img src='./fig/HDemucsUpd01S1.PNG'  alt='hu01s1' width='100%'></td>
         <td> <img src='./fig/HDemucsUpd01WV1.PNG'  alt='hu01wv1' width='100%'></td>
     </tr>
     <tr>
-    <td>Clean</td>
+      <td align='center'> <b>Clean</b> </td>
         <td> <img src='./fig/clean01S1.PNG'  alt='clean01s1' width='100%'></td>
         <td> <img src='./fig/clean01WV1.PNG'  alt='clean01wv1' width='100%'></td>
     </tr>
