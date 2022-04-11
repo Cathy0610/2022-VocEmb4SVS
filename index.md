@@ -70,11 +70,11 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     </tr>
 </table>
   
-<right>
-    <a width='20%'><b>Mixture</b></a>
+<center>
+    <b width='20%'>Mixture</b>
     <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='40%'>
     <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='40%'>
-  </right>
+  </center>
   <br/>
  <center>
     <a width='20%><b>VocEmb4Sep (ResUNetDecouple+)</b></a>
@@ -86,13 +86,13 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
   <summary>Expand binaural images</summary>
   
   <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
-    <tr>
-      <td align='center'> <b>Mixture</b><br><br> </td>
+    <tr margin-bottom='0px'>
+      <td align='center'> <b>Mixture</b> </td>
         <td> <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='100%'></td>
         <td> <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>ResUNetDecouple+</b><br><br> </td>
+      <td align='center'> <b>ResUNetDecouple+</b> </td>
         <td> <img src='./fig/ResUNet01S2.PNG'  alt='res01s2' width='100%'></td>
         <td> <img src='./fig/ResUNet01WV2.PNG'  alt='res01wv2' width='100%'></td>
     </tr>
