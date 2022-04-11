@@ -643,33 +643,33 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
         <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./fig/Mix066S1.PNG'  alt='mix066s1' width='100%'></td>
-        <td> <img src='./fig/Mix066WV1.PNG'  alt='mix066wv1' width='100%'></td>
+        <td> <img src='./fig/Mix06S1.PNG'  alt='mix06s1' width='100%'></td>
+        <td> <img src='./fig/Mix06WV1.PNG'  alt='mix06wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='middle'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./fig/ResUNet066S1.PNG'  alt='res066s1' width='100%'></td>
-        <td> <img src='./fig/ResUNet066WV1.PNG'  alt='res066wv1' width='100%'></td>
+        <td> <img src='./fig/ResUNet06S1.PNG'  alt='res06s1' width='100%'></td>
+        <td> <img src='./fig/ResUNet06WV1.PNG'  alt='res06wv1' width='100%'></td>
     </tr>
     <tr>
         <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./fig/preFro066S1.PNG'  alt='pre066s1' width='100%'></td>
-        <td> <img src='./fig/preFro066WV1.PNG'  alt='pre066wv1' width='100%'></td>
+        <td> <img src='./fig/preFro06S1.PNG'  alt='pre06s1' width='100%'></td>
+        <td> <img src='./fig/preFro06WV1.PNG'  alt='pre06wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./fig/HDemucs066S1.PNG'  alt='hdemucs066s1' width='100%'></td>
-        <td> <img src='./fig/HDemucs066WV1.PNG'  alt='hdemucs066wv1' width='100%'></td>
+        <td> <img src='./fig/HDemucs06S1.PNG'  alt='hdemucs06s1' width='100%'></td>
+        <td> <img src='./fig/HDemucs06WV1.PNG'  alt='hdemucs06wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./fig/HDemucsUpd066S1.PNG'  alt='hu066s1' width='100%'></td>
-        <td> <img src='./fig/HDemucsUpd066WV1.PNG'  alt='hu066wv1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd06S1.PNG'  alt='hu06s1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd06WV1.PNG'  alt='hu06wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./fig/clean066S1.PNG'  alt='clean066s1' width='100%'></td>
-        <td> <img src='./fig/clean066WV1.PNG'  alt='clean066wv1' width='100%'></td>
+        <td> <img src='./fig/clean06S1.PNG'  alt='clean06s1' width='100%'></td>
+        <td> <img src='./fig/clean06WV1.PNG'  alt='clean06wv1' width='100%'></td>
     </tr>
 </table>
   
