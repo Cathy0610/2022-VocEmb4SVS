@@ -76,7 +76,7 @@ This is the audio demo part.
         <td align='center'>ResUNetDecouple+</td>
         <td align='center'>VocEmb4Sep + ResUNetDecouple+</td>
     </tr>
-    <tr>
+    <tr width='100%'>
     	<td align='center' width='30%'>
         <audio controls>
             <source src="./wav/Mix_Atrophy_01.wav" type="audio/wav">
@@ -101,7 +101,7 @@ This is the audio demo part.
     <td align='center'>VocEmb4Sep + HDemucs</td>
     <td align='center'>Clean</td>
     </tr>
-    <tr>
+    <tr width='100%'>
         <td align='center' width='30%'>
         <audio controls>
             <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
