@@ -8,10 +8,10 @@ layout: default
 For brevity, we only show the spectrograms and waveforms of the **right channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural images`.
 
 <!-- <html> -->
-<style>
+<!-- <style>
   th, tr, td {border: none!important; vertical-align: middle; padding: 0px; margin: 0px auto;};
   img {padding: 0px; border: 0px; margin: 0px;}
-</style>
+</style> -->
   
 ## Case 1
 <div align='center'>
@@ -429,33 +429,33 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
   <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr margin-bottom='0px'>
       <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='100%'></td>
-        <td> <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='100%'></td>
+        <td> <img src='./fig/Mix04S2.PNG'  alt='mix04s2' width='100%'></td>
+        <td> <img src='./fig/Mix04WV2.PNG'  alt='mix04wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./fig/ResUNet01S2.PNG'  alt='res01s2' width='100%'></td>
-        <td> <img src='./fig/ResUNet01WV2.PNG'  alt='res01wv2' width='100%'></td>
+        <td> <img src='./fig/ResUNet04S2.PNG'  alt='res04s2' width='100%'></td>
+        <td> <img src='./fig/ResUNet04WV2.PNG'  alt='res04wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./fig/preFro01S2.PNG'  alt='pre01s2' width='100%'></td>
-        <td> <img src='./fig/preFro01WV2.PNG'  alt='pre01wv2' width='100%'></td>
+        <td> <img src='./fig/preFro04S2.PNG'  alt='pre04s2' width='100%'></td>
+        <td> <img src='./fig/preFro04WV2.PNG'  alt='pre04wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./fig/HDemucs01S2.PNG'  alt='hdemucs01s2' width='100%'></td>
-        <td> <img src='./fig/HDemucs01WV2.PNG'  alt='hdemucs01wv2' width='100%'></td>
+        <td> <img src='./fig/HDemucs04S2.PNG'  alt='hdemucs04s2' width='100%'></td>
+        <td> <img src='./fig/HDemucs04WV2.PNG'  alt='hdemucs04wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./fig/HDemucsUpd01S2.PNG'  alt='hu01s2' width='100%'></td>
-        <td> <img src='./fig/HDemucsUpd01WV2.PNG'  alt='hu01wv2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd04S2.PNG'  alt='hu04s2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd04WV2.PNG'  alt='hu04wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./fig/clean01S2.PNG'  alt='clean01s2' width='100%'></td>
-        <td> <img src='./fig/clean01WV2.PNG'  alt='clean01wv2' width='100%'></td>
+        <td> <img src='./fig/clean04S2.PNG'  alt='clean04s2' width='100%'></td>
+        <td> <img src='./fig/clean04WV2.PNG'  alt='clean04wv2' width='100%'></td>
     </tr>
 </table>
 </details>
@@ -469,19 +469,19 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/Mix_Run_04.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/ResUNet_Run_04.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/preFro_Run_04.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -494,19 +494,19 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/HDemucs_Run_04.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/HDemucsUpd2_Run_04.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/clean_Run_04.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -518,33 +518,33 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
         <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
-        <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
+        <td> <img src='./fig/Mix05S1.PNG'  alt='mix05s1' width='100%'></td>
+        <td> <img src='./fig/Mix05WV1.PNG'  alt='mix05wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='middle'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./fig/ResUNet01S1.PNG'  alt='res01s1' width='100%'></td>
-        <td> <img src='./fig/ResUNet01WV1.PNG'  alt='res01wv1' width='100%'></td>
+        <td> <img src='./fig/ResUNet05S1.PNG'  alt='res05s1' width='100%'></td>
+        <td> <img src='./fig/ResUNet05WV1.PNG'  alt='res05wv1' width='100%'></td>
     </tr>
     <tr>
         <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./fig/preFro01S1.PNG'  alt='pre01s1' width='100%'></td>
-        <td> <img src='./fig/preFro01WV1.PNG'  alt='pre01wv1' width='100%'></td>
+        <td> <img src='./fig/preFro05S1.PNG'  alt='pre05s1' width='100%'></td>
+        <td> <img src='./fig/preFro05WV1.PNG'  alt='pre05wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./fig/HDemucs01S1.PNG'  alt='hdemucs01s1' width='100%'></td>
-        <td> <img src='./fig/HDemucs01WV1.PNG'  alt='hdemucs01wv1' width='100%'></td>
+        <td> <img src='./fig/HDemucs05S1.PNG'  alt='hdemucs05s1' width='100%'></td>
+        <td> <img src='./fig/HDemucs05WV1.PNG'  alt='hdemucs05wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./fig/HDemucsUpd01S1.PNG'  alt='hu01s1' width='100%'></td>
-        <td> <img src='./fig/HDemucsUpd01WV1.PNG'  alt='hu01wv1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd05S1.PNG'  alt='hu05s1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd05WV1.PNG'  alt='hu05wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./fig/clean01S1.PNG'  alt='clean01s1' width='100%'></td>
-        <td> <img src='./fig/clean01WV1.PNG'  alt='clean01wv1' width='100%'></td>
+        <td> <img src='./fig/clean05S1.PNG'  alt='clean05s1' width='100%'></td>
+        <td> <img src='./fig/clean05WV1.PNG'  alt='clean05wv1' width='100%'></td>
     </tr>
 </table>
   
@@ -554,33 +554,33 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
   <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr margin-bottom='0px'>
       <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='100%'></td>
-        <td> <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='100%'></td>
+        <td> <img src='./fig/Mix05S2.PNG'  alt='mix05s2' width='100%'></td>
+        <td> <img src='./fig/Mix05WV2.PNG'  alt='mix05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./fig/ResUNet01S2.PNG'  alt='res01s2' width='100%'></td>
-        <td> <img src='./fig/ResUNet01WV2.PNG'  alt='res01wv2' width='100%'></td>
+        <td> <img src='./fig/ResUNet05S2.PNG'  alt='res05s2' width='100%'></td>
+        <td> <img src='./fig/ResUNet05WV2.PNG'  alt='res05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./fig/preFro01S2.PNG'  alt='pre01s2' width='100%'></td>
-        <td> <img src='./fig/preFro01WV2.PNG'  alt='pre01wv2' width='100%'></td>
+        <td> <img src='./fig/preFro05S2.PNG'  alt='pre05s2' width='100%'></td>
+        <td> <img src='./fig/preFro05WV2.PNG'  alt='pre05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./fig/HDemucs01S2.PNG'  alt='hdemucs01s2' width='100%'></td>
-        <td> <img src='./fig/HDemucs01WV2.PNG'  alt='hdemucs01wv2' width='100%'></td>
+        <td> <img src='./fig/HDemucs05S2.PNG'  alt='hdemucs05s2' width='100%'></td>
+        <td> <img src='./fig/HDemucs05WV2.PNG'  alt='hdemucs05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./fig/HDemucsUpd01S2.PNG'  alt='hu01s2' width='100%'></td>
-        <td> <img src='./fig/HDemucsUpd01WV2.PNG'  alt='hu01wv2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd05S2.PNG'  alt='hu05s2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd05WV2.PNG'  alt='hu05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./fig/clean01S2.PNG'  alt='clean01s2' width='100%'></td>
-        <td> <img src='./fig/clean01WV2.PNG'  alt='clean01wv2' width='100%'></td>
+        <td> <img src='./fig/clean05S2.PNG'  alt='clean05s2' width='100%'></td>
+        <td> <img src='./fig/clean05WV2.PNG'  alt='clean05wv2' width='100%'></td>
     </tr>
 </table>
 </details>
@@ -594,19 +594,19 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/Mix_Bulldozer_05.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/ResUNet_Bulldozer_05.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/preFro_Bulldozer_05.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -619,19 +619,19 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/HDemucs_Bulldozer_05.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/HDemucsUpd2_Bulldozer_05.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/clean_Bulldozer_05.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -643,33 +643,33 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
         <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
-        <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
+        <td> <img src='./fig/Mix066S1.PNG'  alt='mix066s1' width='100%'></td>
+        <td> <img src='./fig/Mix066WV1.PNG'  alt='mix066wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='middle'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./fig/ResUNet01S1.PNG'  alt='res01s1' width='100%'></td>
-        <td> <img src='./fig/ResUNet01WV1.PNG'  alt='res01wv1' width='100%'></td>
+        <td> <img src='./fig/ResUNet066S1.PNG'  alt='res066s1' width='100%'></td>
+        <td> <img src='./fig/ResUNet066WV1.PNG'  alt='res066wv1' width='100%'></td>
     </tr>
     <tr>
         <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./fig/preFro01S1.PNG'  alt='pre01s1' width='100%'></td>
-        <td> <img src='./fig/preFro01WV1.PNG'  alt='pre01wv1' width='100%'></td>
+        <td> <img src='./fig/preFro066S1.PNG'  alt='pre066s1' width='100%'></td>
+        <td> <img src='./fig/preFro066WV1.PNG'  alt='pre066wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./fig/HDemucs01S1.PNG'  alt='hdemucs01s1' width='100%'></td>
-        <td> <img src='./fig/HDemucs01WV1.PNG'  alt='hdemucs01wv1' width='100%'></td>
+        <td> <img src='./fig/HDemucs066S1.PNG'  alt='hdemucs066s1' width='100%'></td>
+        <td> <img src='./fig/HDemucs066WV1.PNG'  alt='hdemucs066wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./fig/HDemucsUpd01S1.PNG'  alt='hu01s1' width='100%'></td>
-        <td> <img src='./fig/HDemucsUpd01WV1.PNG'  alt='hu01wv1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd066S1.PNG'  alt='hu066s1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd066WV1.PNG'  alt='hu066wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./fig/clean01S1.PNG'  alt='clean01s1' width='100%'></td>
-        <td> <img src='./fig/clean01WV1.PNG'  alt='clean01wv1' width='100%'></td>
+        <td> <img src='./fig/clean066S1.PNG'  alt='clean066s1' width='100%'></td>
+        <td> <img src='./fig/clean066WV1.PNG'  alt='clean066wv1' width='100%'></td>
     </tr>
 </table>
   
@@ -679,33 +679,33 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
   <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr margin-bottom='0px'>
       <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='100%'></td>
-        <td> <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='100%'></td>
+        <td> <img src='./fig/Mix06S2.PNG'  alt='mix06s2' width='100%'></td>
+        <td> <img src='./fig/Mix06WV2.PNG'  alt='mix06wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./fig/ResUNet01S2.PNG'  alt='res01s2' width='100%'></td>
-        <td> <img src='./fig/ResUNet01WV2.PNG'  alt='res01wv2' width='100%'></td>
+        <td> <img src='./fig/ResUNet06S2.PNG'  alt='res06s2' width='100%'></td>
+        <td> <img src='./fig/ResUNet06WV2.PNG'  alt='res06wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./fig/preFro01S2.PNG'  alt='pre01s2' width='100%'></td>
-        <td> <img src='./fig/preFro01WV2.PNG'  alt='pre01wv2' width='100%'></td>
+        <td> <img src='./fig/preFro06S2.PNG'  alt='pre06s2' width='100%'></td>
+        <td> <img src='./fig/preFro06WV2.PNG'  alt='pre06wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./fig/HDemucs01S2.PNG'  alt='hdemucs01s2' width='100%'></td>
-        <td> <img src='./fig/HDemucs01WV2.PNG'  alt='hdemucs01wv2' width='100%'></td>
+        <td> <img src='./fig/HDemucs06S2.PNG'  alt='hdemucs06s2' width='100%'></td>
+        <td> <img src='./fig/HDemucs06WV2.PNG'  alt='hdemucs06wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./fig/HDemucsUpd01S2.PNG'  alt='hu01s2' width='100%'></td>
-        <td> <img src='./fig/HDemucsUpd01WV2.PNG'  alt='hu01wv2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd06S2.PNG'  alt='hu06s2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd06WV2.PNG'  alt='hu06wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./fig/clean01S2.PNG'  alt='clean01s2' width='100%'></td>
-        <td> <img src='./fig/clean01WV2.PNG'  alt='clean01wv2' width='100%'></td>
+        <td> <img src='./fig/clean06S2.PNG'  alt='clean06s2' width='100%'></td>
+        <td> <img src='./fig/clean06WV2.PNG'  alt='clean06wv2' width='100%'></td>
     </tr>
 </table>
 </details>
@@ -719,19 +719,19 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/Mix_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/ResUNet_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/preFro_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -744,19 +744,19 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/HDemucs_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/HDemucsUpd2_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Atrophy_01.wav" type="audio/wav">
+            <source src="./wav/clean_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -765,7 +765,7 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 
   
   
-<!-- </html> -->
+<!-- </html> 
 
 ### Small image
 
