@@ -33,50 +33,87 @@ Hi   Welcome to hiden space!
 </details>
 
 # Audio demo
-This is the audio demo part.
+For brevity, we only show the spectrogram and waveform of the right channel. To see the complete binaural spectrogram and waveform, please click on `Expand binaural image`.
 
 ## Case 1
 <div align='center'>
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr>
-      <td align='center'> <b>Mixture</b> </td>
+      <td align='center'> <b>Mixture</b><br><br> </td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
         <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>ResUNetDecouple+</b> </td>
+      <td align='center'> <b>ResUNetDecouple+</b><br><br> </td>
         <td> <img src='./fig/ResUNet01S1.PNG'  alt='res01s1' width='100%'></td>
         <td> <img src='./fig/ResUNet01WV1.PNG'  alt='res01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b><br> </td>
         <td> <img src='./fig/preFro01S1.PNG'  alt='pre01s1' width='100%'></td>
         <td> <img src='./fig/preFro01WV1.PNG'  alt='pre01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>HDemucs</b> </td>
+      <td align='center'> <b>HDemucs</b><br><br> </td>
         <td> <img src='./fig/HDemucs01S1.PNG'  alt='hdemucs01s1' width='100%'></td>
         <td> <img src='./fig/HDemucs01WV1.PNG'  alt='hdemucs01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b><br></td>
         <td> <img src='./fig/HDemucsUpd01S1.PNG'  alt='hu01s1' width='100%'></td>
         <td> <img src='./fig/HDemucsUpd01WV1.PNG'  alt='hu01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Clean</b><br><br> </td>
         <td> <img src='./fig/clean01S1.PNG'  alt='clean01s1' width='100%'></td>
         <td> <img src='./fig/clean01WV1.PNG'  alt='clean01wv1' width='100%'></td>
     </tr>
 </table>
 
-<table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+<details>
+  <summary>Expand binaural images</summary>
+  
+  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+    <tr>
+      <td align='center'> <b>Mixture</b><br><br> </td>
+        <td> <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='100%'></td>
+        <td> <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>ResUNetDecouple+</b><br><br> </td>
+        <td> <img src='./fig/ResUNet01S2.PNG'  alt='res01s2' width='100%'></td>
+        <td> <img src='./fig/ResUNet01WV2.PNG'  alt='res01wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b><br> </td>
+        <td> <img src='./fig/preFro01S2.PNG'  alt='pre01s2' width='100%'></td>
+        <td> <img src='./fig/preFro01WV2.PNG'  alt='pre01wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b><br><br> </td>
+        <td> <img src='./fig/HDemucs01S2.PNG'  alt='hdemucs01s2' width='100%'></td>
+        <td> <img src='./fig/HDemucs01WV2.PNG'  alt='hdemucs01wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b><br></td>
+        <td> <img src='./fig/HDemucsUpd01S2.PNG'  alt='hu01s2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd01WV2.PNG'  alt='hu01wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b><br><br> </td>
+        <td> <img src='./fig/clean01S2.PNG'  alt='clean01s2' width='100%'></td>
+        <td> <img src='./fig/clean01WV2.PNG'  alt='clean01wv2' width='100%'></td>
+    </tr>
+</table>
+  </details>
+  
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
         <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
     </tr>
-    <tr width='100%'>
+    <tr>
     	<td align='center' width='30%'>
         <audio controls>
             <source src="./wav/Mix_Atrophy_01.wav" type="audio/wav">
@@ -101,7 +138,7 @@ This is the audio demo part.
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     <td align='center'>Clean</td>
     </tr>
-    <tr width='100%'>
+    <tr>
         <td align='center' width='30%'>
         <audio controls>
             <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
