@@ -39,12 +39,12 @@ For brevity, we only show the spectrogram and waveform of the right channel. To 
 <div align='center'>
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr>
-      <td align='center'> <b>Mixture</b><br><br> </td>
+      <td valign='center'> <b>Mixture</b><br><br> </td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
         <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>ResUNetDecouple+</b><br><br> </td>
+      <td align='middle'> <b>ResUNetDecouple+</b><br><br> </td>
         <td> <img src='./fig/ResUNet01S1.PNG'  alt='res01s1' width='100%'></td>
         <td> <img src='./fig/ResUNet01WV1.PNG'  alt='res01wv1' width='100%'></td>
     </tr>
