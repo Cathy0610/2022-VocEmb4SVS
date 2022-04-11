@@ -33,13 +33,13 @@ Hi   Welcome to hiden space!
 </details>
 
 # Audio demo
-For brevity, we only show the spectrograms and waveforms of the **right channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural image`.
+For brevity, we only show the spectrograms and waveforms of the **right channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural images`.
 
 ## Case 1
 <div align='center'>
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr>
-        <td valign='center'> <b>Mixture</b><br/><br/> </td>
+        <td align='center'> <b>Mixture</b><br/><br/> </td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
         <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
     </tr>
@@ -69,7 +69,19 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
         <td> <img src='./fig/clean01WV1.PNG'  alt='clean01wv1' width='100%'></td>
     </tr>
 </table>
-
+  
+<center>
+    <b>Mixture</b>&emsp;&emsp;&emsp;&emsp;
+    <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='40%'>
+    <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='40%'>
+  </center>
+  <br/>
+  <center>
+    <b>VocEmb4Sep (ResUNetDecouple+)</b>
+    <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='40%'>
+    <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='40%'>
+  </center>
+  
 <details align='right'>
   <summary>Expand binaural images</summary>
   
