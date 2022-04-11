@@ -22,7 +22,7 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
   img {padding: 0px; border: 0px; margin: 0px;}
 </style> -->
   
-## Case 1
+### Case 1
 <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -147,7 +147,7 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
     </tr>
   </table></div>
   
-## Case 2  
+### Case 2  
 <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -272,7 +272,8 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
     </tr>
   </table></div>
 
-## Case 3
+
+### Case 3
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -397,7 +398,8 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
     </tr>
     </table></div>
 
-## Case 4
+
+### Case 4
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -522,7 +524,8 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
     </tr>
     </table></div>
   
-## Case 5
+  
+### Case 5
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -646,8 +649,9 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
         </td>
     </tr>
     </table></div>
-  
-## Case 6
+ 
+ 
+### Case 6
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
