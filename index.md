@@ -36,8 +36,8 @@ Hi   Welcome to hiden space!
 This is the audio demo part.
 
 ## Case 1
-<div align: center>
-<table style="margin-left: auto; margin-right: 0; align:center; border: none!important">
+<div align='center'>
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr>
     <td>Mixture</td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
@@ -70,7 +70,7 @@ This is the audio demo part.
     </tr>
 </table>
 
-<table style="margin-left: auto; margin-right: 0; align:center; border: none!important">
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
