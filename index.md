@@ -7,7 +7,7 @@ layout: default
 # Audio demo
 For brevity, we only show the spectrograms and waveforms of the **right channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural images`.
 
-<html>
+<!-- <html> -->
 <style>
   th, tr, td {border: none!important; vertical-align: middle; padding: 0px; margin: 0px auto;};
   img {padding: 0px; border: 0px; margin: 0px;}
@@ -765,7 +765,7 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 
   
   
-</html>
+<!-- </html> -->
 
 ### Small image
 
