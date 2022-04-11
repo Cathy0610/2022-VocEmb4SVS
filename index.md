@@ -38,12 +38,12 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 ## Case 1
 <html>
 <style>
-  th, tr, td {border: none!important; vertical-align: center; padding: 0px; margin: 0px auto;};
-  img {padding: 0px; border: none;}
+  th, tr, td {border: none!important; vertical-align: middle; padding: 0px; margin: 0px auto;};
+  img {padding: 0px; border: none; margin: 0px;}
   
 </style>
 <div align='center'>
-<table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+<table style="margin-left: auto; margin-right: auto; align:center; vertical-align:middle; border: none!important">
     <tr>
         <td align='center'> <b>Mixture</b> </td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
