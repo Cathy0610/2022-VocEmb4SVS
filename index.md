@@ -39,11 +39,11 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 <html>
 <style>
   th, tr, td {border: none!important; vertical-align: middle; padding: 0px; margin: 0px auto;};
-  img {padding: 0px; border: none; margin: 0px;}
+  img {padding: 1px; border: none; margin: 0px;}
   
 </style>
 <div align='center'>
-<table style="margin-left: auto; margin-right: auto; align:center; vertical-align:middle; border: none!important">
+<table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
         <td align='center'> <b>Mixture</b> </td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
@@ -77,7 +77,7 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 </table>
 
   
-<center width='100%'>
+<!-- <center width='100%'>
     <b width='20%'>Mixture</b>
     <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='40%'>
     <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='40%'>
@@ -88,6 +88,7 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='40%'>
     <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='40%'>
   </center>
+   -->
   
 <details align='right'>
   <summary>Expand binaural images</summary>
@@ -104,27 +105,27 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
         <td> <img src='./fig/ResUNet01WV2.PNG'  alt='res01wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b><br> </td>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
         <td> <img src='./fig/preFro01S2.PNG'  alt='pre01s2' width='100%'></td>
         <td> <img src='./fig/preFro01WV2.PNG'  alt='pre01wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>HDemucs</b><br><br> </td>
+      <td align='center'> <b>HDemucs</b> </td>
         <td> <img src='./fig/HDemucs01S2.PNG'  alt='hdemucs01s2' width='100%'></td>
         <td> <img src='./fig/HDemucs01WV2.PNG'  alt='hdemucs01wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b><br></td>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
         <td> <img src='./fig/HDemucsUpd01S2.PNG'  alt='hu01s2' width='100%'></td>
         <td> <img src='./fig/HDemucsUpd01WV2.PNG'  alt='hu01wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b><br><br> </td>
+      <td align='center'> <b>Clean</b> </td>
         <td> <img src='./fig/clean01S2.PNG'  alt='clean01s2' width='100%'></td>
         <td> <img src='./fig/clean01WV2.PNG'  alt='clean01wv2' width='100%'></td>
     </tr>
 </table>
-  </details>
+</details>
   
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
     <tr>
