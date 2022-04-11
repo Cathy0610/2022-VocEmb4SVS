@@ -49,7 +49,7 @@ This is the audio demo part.
         <td> <img src='./fig/ResUNet01WV1.PNG'  alt='res01wv1' width='100%'></td>
     </tr>
     <tr>
-    <td>VocEmb4Sep + ResUNetDecouple+</td>
+    <td>VocEmb4Sep (ResUNetDecouple+)</td>
         <td> <img src='./fig/preFro01S1.PNG'  alt='pre01s1' width='100%'></td>
         <td> <img src='./fig/preFro01WV1.PNG'  alt='pre01wv1' width='100%'></td>
     </tr>
@@ -59,7 +59,7 @@ This is the audio demo part.
         <td> <img src='./fig/HDemucs01WV1.PNG'  alt='hdemucs01wv1' width='100%'></td>
     </tr>
     <tr>
-    <td>VocEmb4Sep + HDemucs</td>
+    <td>VocEmb4Sep (HDemucs)</td>
         <td> <img src='./fig/HDemucsUpd01S1.PNG'  alt='hu01s1' width='100%'></td>
         <td> <img src='./fig/HDemucsUpd01WV1.PNG'  alt='hu01wv1' width='100%'></td>
     </tr>
@@ -74,7 +74,7 @@ This is the audio demo part.
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep + ResUNetDecouple+</td>
+        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
     </tr>
     <tr width='100%'>
     	<td align='center' width='30%'>
@@ -98,7 +98,7 @@ This is the audio demo part.
     </tr>
     <tr>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep + HDemucs</td>
+    <td align='center'>VocEmb4Sep (HDemucs)</td>
     <td align='center'>Clean</td>
     </tr>
     <tr width='100%'>
@@ -125,10 +125,10 @@ This is the audio demo part.
 </div>
 
 ### ResUNet
-<!-- <html> -->
-<!-- <style>
+<html>
+<style>
   th, tr, td {border: none!important;}
-</style> -->
+</style> 
   <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
   <th colspan=2> Case 1 </th>
         <tr>
@@ -222,7 +222,7 @@ This is the audio demo part.
             </td>
         </tr>
     </table>
-<!-- </html> -->
+</html>
  
 </div>
  
@@ -239,9 +239,10 @@ This is the audio demo part.
 </div>
 
 <div align='center'>
-  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
-  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='45%'>
-  <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
+  Mixture <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='40%'>
+  <img src='./fig/ResUNet_Atrophy_01-1.png' alt='res01-1' width='40%'>
+  
+  VocEmb4Sep (ResUNetDecouple+) <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
   <img src='./fig/ResUNet_Atrophy_01-2.png' alt='res01-2' width='45%'>
  </div>
 
