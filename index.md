@@ -70,11 +70,11 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     </tr>
 </table>
   
-<center>
+<right>
     <a width='20%'><b>Mixture</b></a>
     <img src='./fig/Mix01S2.PNG'  alt='mix01s2' width='40%'>
     <img src='./fig/Mix01WV2.PNG'  alt='mix01wv2' width='40%'>
-  </center>
+  </right>
   <br/>
  <center>
     <a width='20%><b>VocEmb4Sep (ResUNetDecouple+)</b></a>
