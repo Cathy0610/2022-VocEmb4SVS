@@ -33,23 +33,23 @@ Hi   Welcome to hiden space!
 </details>
 
 # Audio demo
-For brevity, we only show the spectrogram and waveform of the right channel. To see the complete binaural spectrogram and waveform, please click on `Expand binaural image`.
+For brevity, we only show the spectrograms and waveforms of the **right channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural image`.
 
 ## Case 1
 <div align='center'>
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr>
-      <td valign='center'> <b>Mixture</b><br><br> </td>
+        <td valign='center'> <b>Mixture</b><br/><br/> </td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
         <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='middle'> <b>ResUNetDecouple+</b><br><br> </td>
+      <td align='middle'> <b>ResUNetDecouple+</b><br/><br> </td>
         <td> <img src='./fig/ResUNet01S1.PNG'  alt='res01s1' width='100%'></td>
         <td> <img src='./fig/ResUNet01WV1.PNG'  alt='res01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b><br> </td>
+        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b><br/> </td>
         <td> <img src='./fig/preFro01S1.PNG'  alt='pre01s1' width='100%'></td>
         <td> <img src='./fig/preFro01WV1.PNG'  alt='pre01wv1' width='100%'></td>
     </tr>
@@ -161,7 +161,7 @@ For brevity, we only show the spectrogram and waveform of the right channel. To 
 </table>
 </div>
 
-### ResUNet
+<!-- ### ResUNet
 <html>
 <style>
   th, tr, td {border: none!important;}
@@ -462,3 +462,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+ -->
