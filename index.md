@@ -39,8 +39,8 @@ This is the audio demo part.
 <table style="margin-left: auto; margin-right: 0; align:center; border: none!important">
     <tr>
     <td>Mixture</td>
-        <td> <img src='./fig/Mix01S1.png'  alt='mix01s1' width='100%'></td>
-        <td> <img src='./fig/Mix01WV1.png'  alt='mix01wv1' width='100%'></td>
+        <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
+        <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
     </tr>
     <tr>
     <td>ResUNetDecouple+</td>
