@@ -14,6 +14,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 <summary><mark>Please click here!</mark></summary>
 Hi   Welcome to hiden space!
   
+  
 ### Mixture
 <div align='center'>
   <audio controls>
@@ -35,6 +36,91 @@ Hi   Welcome to hiden space!
 This is the audio demo part.
 
 ## Case 1
+<table style="margin-left: auto; margin-right: 0; align:center; border: none!important">
+    <tr>
+    <td>Mixture</td>
+        <td> <img src='./fig/Mix01S1.png'  alt='mix01s1' width='100%'></td>
+        <td> <img src='./fig/Mix01WV1.png'  alt='mix01wv1' width='100%'></td>
+    </tr>
+    <tr>
+    <td>ResUNetDecouple+</td>
+        <td> <img src='./fig/ResUNet01S1.png'  alt='res01s1' width='100%'></td>
+        <td> <img src='./fig/ResUNet01WV1.png'  alt='res01wv1' width='100%'></td>
+    </tr>
+    <tr>
+    <td>VocEmb4Sep + ResUNetDecouple+</td>
+        <td> <img src='./fig/preFro01S1.png'  alt='pre01s1' width='100%'></td>
+        <td> <img src='./fig/preFro01WV1.png'  alt='pre01wv1' width='100%'></td>
+    </tr>
+    <tr>
+    <td>HDemucs</td>
+        <td> <img src='./fig/HDemucs01S1.png'  alt='hdemucs01s1' width='100%'></td>
+        <td> <img src='./fig/HDemucs01WV1.png'  alt='hdemucs01wv1' width='100%'></td>
+    </tr>
+    <tr>
+    <td>VocEmb4Sep + HDemucs</td>
+        <td> <img src='./fig/HDemucsUpd01S1.png'  alt='hu01s1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd01WV1.png'  alt='hu01wv1' width='100%'></td>
+    </tr>
+    <tr>
+    <td>Clean</td>
+        <td> <img src='./fig/clean01S1.png'  alt='clean01s1' width='100%'></td>
+        <td> <img src='./fig/clean01WV1.png'  alt='clean01wv1' width='100%'></td>
+    </tr>
+</table>
+
+<table style="margin-left: auto; margin-right: 0; align:center; border: none!important">
+    <tr>
+        <td align='center'>Mixture</td>
+        <td align='center'>ResUNetDecouple+</td>
+        <td align='center'>VocEmb4Sep + ResUNetDecouple+</td>
+    </tr>
+    <tr>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/Mix_Atrophy_01.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/ResUNet_Atrophy_01.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/preFro_Atrophy_01.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    <tr>
+    <td align='center'>HDemucs</td>
+    <td align='center'>VocEmb4Sep + HDemucs</td>
+    <td align='center'>Clean</td>
+    </tr>
+    <tr>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucs_Atrophy_01.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucsUpd2_Atrophy_01.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/clean_Atrophy_01.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+</table>
 
 ### ResUNet
 <!-- <html> -->
