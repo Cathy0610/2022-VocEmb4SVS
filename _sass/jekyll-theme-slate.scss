@@ -145,6 +145,13 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
+td img {
+  margin: 0;
+  padding: 0;
+  vaertical-align: middle;
+  border: none;
+}
+
 p img {
   display: inline;
   margin: 0;
