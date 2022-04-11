@@ -70,7 +70,7 @@ For brevity, we only show the spectrogram and waveform of the right channel. To 
     </tr>
 </table>
 
-<details>
+<details align='right'>
   <summary>Expand binaural images</summary>
   
   <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
