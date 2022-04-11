@@ -75,7 +75,7 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
         <td> <img src='./fig/clean01WV1.PNG'  alt='clean01wv1' width='100%'></td>
     </tr>
 </table>
-</html>
+
   
 <center width='100%'>
     <b width='20%'>Mixture</b>
@@ -179,7 +179,7 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
     </tr>
 </table>
 </div>
-
+</html>
 <!-- ### ResUNet
 <html>
 <style>
