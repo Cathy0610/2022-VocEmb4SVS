@@ -38,7 +38,9 @@ For brevity, we only show the spectrograms and waveforms of the **right channel*
 ## Case 1
 <html>
 <style>
-  th, tr, td {border: none!important; vertical-align: center; padding: 0px; margin: 0px auto;}
+  th, tr, td {border: none!important; vertical-align: center; padding: 0px; margin: 0px auto;};
+  img {padding: 0px; border: none;}
+  
 </style>
 <div align='center'>
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
