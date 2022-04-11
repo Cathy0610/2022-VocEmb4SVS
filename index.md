@@ -36,39 +36,44 @@ Hi   Welcome to hiden space!
 For brevity, we only show the spectrograms and waveforms of the **right channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural images`.
 
 ## Case 1
+<html>
+<style>
+  th, tr, td {border: none!important; vertical-align: center; padding: 0px; margin: 0px auto;}
+</style>
 <div align='center'>
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr>
-        <td align='center'> <b>Mixture</b><br/><br/> </td>
+        <td align='center'> <b>Mixture</b> </td>
         <td> <img src='./fig/Mix01S1.PNG'  alt='mix01s1' width='100%'></td>
         <td> <img src='./fig/Mix01WV1.PNG'  alt='mix01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='middle'> <b>ResUNetDecouple+</b><br/><br> </td>
+      <td align='middle'> <b>ResUNetDecouple+</b> </td>
         <td> <img src='./fig/ResUNet01S1.PNG'  alt='res01s1' width='100%'></td>
         <td> <img src='./fig/ResUNet01WV1.PNG'  alt='res01wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b><br/> </td>
+        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
         <td> <img src='./fig/preFro01S1.PNG'  alt='pre01s1' width='100%'></td>
         <td> <img src='./fig/preFro01WV1.PNG'  alt='pre01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>HDemucs</b><br><br> </td>
+      <td align='center'> <b>HDemucs</b> </td>
         <td> <img src='./fig/HDemucs01S1.PNG'  alt='hdemucs01s1' width='100%'></td>
         <td> <img src='./fig/HDemucs01WV1.PNG'  alt='hdemucs01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b><br></td>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
         <td> <img src='./fig/HDemucsUpd01S1.PNG'  alt='hu01s1' width='100%'></td>
         <td> <img src='./fig/HDemucsUpd01WV1.PNG'  alt='hu01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b><br><br> </td>
+      <td align='center'> <b>Clean</b> </td>
         <td> <img src='./fig/clean01S1.PNG'  alt='clean01s1' width='100%'></td>
         <td> <img src='./fig/clean01WV1.PNG'  alt='clean01wv1' width='100%'></td>
     </tr>
 </table>
+</html>
   
 <center width='100%'>
     <b width='20%'>Mixture</b>
