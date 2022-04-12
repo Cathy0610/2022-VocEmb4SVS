@@ -4,8 +4,7 @@ layout: default
  -->
 
 
-# Demo page
-## VocEmb4Sep: Boosting the Performance of Singing Voice Separation by Vocal Embeddings
+# VocEmb4Sep: Boosting the Performance of Singing Voice Separation by Vocal Embeddings
 ### _Chenyi Li, Yi Li, Xuhao Du, Zhiyong Wu, Haixin Zhao, Xiangyu Li, Shuo Li_
 
 ### Abstract
@@ -530,33 +529,33 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
         <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./fig/Mix05S1.PNG'  alt='mix05s1' width='100%'></td>
-        <td> <img src='./fig/Mix05WV1.PNG'  alt='mix05wv1' width='100%'></td>
+        <td> <img src='./fig/Mix07S1.PNG'  alt='mix05s1' width='100%'></td>
+        <td> <img src='./fig/Mix07WV1.PNG'  alt='mix05wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='middle'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./fig/ResUNet05S1.PNG'  alt='res05s1' width='100%'></td>
-        <td> <img src='./fig/ResUNet05WV1.PNG'  alt='res05wv1' width='100%'></td>
+        <td> <img src='./fig/ResUNet07S1.PNG'  alt='res05s1' width='100%'></td>
+        <td> <img src='./fig/ResUNet07WV1.PNG'  alt='res05wv1' width='100%'></td>
     </tr>
     <tr>
         <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./fig/preFro05S1.PNG'  alt='pre05s1' width='100%'></td>
-        <td> <img src='./fig/preFro05WV1.PNG'  alt='pre05wv1' width='100%'></td>
+        <td> <img src='./fig/preFro07S1.PNG'  alt='pre05s1' width='100%'></td>
+        <td> <img src='./fig/preFro07WV1.PNG'  alt='pre05wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./fig/HDemucs05S1.PNG'  alt='hdemucs05s1' width='100%'></td>
-        <td> <img src='./fig/HDemucs05WV1.PNG'  alt='hdemucs05wv1' width='100%'></td>
+        <td> <img src='./fig/HDemucs07S1.PNG'  alt='hdemucs05s1' width='100%'></td>
+        <td> <img src='./fig/HDemucs07WV1.PNG'  alt='hdemucs05wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./fig/HDemucsUpd05S1.PNG'  alt='hu05s1' width='100%'></td>
-        <td> <img src='./fig/HDemucsUpd05WV1.PNG'  alt='hu05wv1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd07S1.PNG'  alt='hu05s1' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd07WV1.PNG'  alt='hu05wv1' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./fig/clean05S1.PNG'  alt='clean05s1' width='100%'></td>
-        <td> <img src='./fig/clean05WV1.PNG'  alt='clean05wv1' width='100%'></td>
+        <td> <img src='./fig/clean07S1.PNG'  alt='clean05s1' width='100%'></td>
+        <td> <img src='./fig/clean07WV1.PNG'  alt='clean05wv1' width='100%'></td>
     </tr>
 </table>
   
@@ -566,33 +565,33 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
   <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
     <tr margin-bottom='0px'>
       <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./fig/Mix05S2.PNG'  alt='mix05s2' width='100%'></td>
-        <td> <img src='./fig/Mix05WV2.PNG'  alt='mix05wv2' width='100%'></td>
+        <td> <img src='./fig/Mix07S2.PNG'  alt='mix05s2' width='100%'></td>
+        <td> <img src='./fig/Mix07WV2.PNG'  alt='mix05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./fig/ResUNet05S2.PNG'  alt='res05s2' width='100%'></td>
-        <td> <img src='./fig/ResUNet05WV2.PNG'  alt='res05wv2' width='100%'></td>
+        <td> <img src='./fig/ResUNet07S2.PNG'  alt='res05s2' width='100%'></td>
+        <td> <img src='./fig/ResUNet07WV2.PNG'  alt='res05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./fig/preFro05S2.PNG'  alt='pre05s2' width='100%'></td>
-        <td> <img src='./fig/preFro05WV2.PNG'  alt='pre05wv2' width='100%'></td>
+        <td> <img src='./fig/preFro07S2.PNG'  alt='pre05s2' width='100%'></td>
+        <td> <img src='./fig/preFro07WV2.PNG'  alt='pre05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./fig/HDemucs05S2.PNG'  alt='hdemucs05s2' width='100%'></td>
-        <td> <img src='./fig/HDemucs05WV2.PNG'  alt='hdemucs05wv2' width='100%'></td>
+        <td> <img src='./fig/HDemucs07S2.PNG'  alt='hdemucs05s2' width='100%'></td>
+        <td> <img src='./fig/HDemucs07WV2.PNG'  alt='hdemucs05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./fig/HDemucsUpd05S2.PNG'  alt='hu05s2' width='100%'></td>
-        <td> <img src='./fig/HDemucsUpd05WV2.PNG'  alt='hu05wv2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd07S2.PNG'  alt='hu05s2' width='100%'></td>
+        <td> <img src='./fig/HDemucsUpd07WV2.PNG'  alt='hu05wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./fig/clean05S2.PNG'  alt='clean05s2' width='100%'></td>
-        <td> <img src='./fig/clean05WV2.PNG'  alt='clean05wv2' width='100%'></td>
+        <td> <img src='./fig/clean07S2.PNG'  alt='clean05s2' width='100%'></td>
+        <td> <img src='./fig/clean07WV2.PNG'  alt='clean05wv2' width='100%'></td>
     </tr>
 </table>
 </details>
@@ -606,19 +605,19 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Bulldozer_05.wav" type="audio/wav">
+            <source src="./wav/Mix_Bulldozer_07.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Bulldozer_05.wav" type="audio/wav">
+            <source src="./wav/ResUNet_Bulldozer_07.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Bulldozer_05.wav" type="audio/wav">
+            <source src="./wav/preFro_Bulldozer_07.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -631,19 +630,19 @@ These are some music clips cut from [MUSDB18 dataset](https://sigsep.github.io/d
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Bulldozer_05.wav" type="audio/wav">
+            <source src="./wav/HDemucs_Bulldozer_07.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Bulldozer_05.wav" type="audio/wav">
+            <source src="./wav/HDemucsUpd2_Bulldozer_07.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Bulldozer_05.wav" type="audio/wav">
+            <source src="./wav/clean_Bulldozer_07.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
