@@ -15,7 +15,7 @@ layout: default
 ## Demo from the MUSDB18 dataset
 These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). `VocEmb4Sep (Separator P)` means applying our proposed method VocEmb4Sep on _Separator P_. The comparison of vocals separated by different methods is listed as follows. 
 
-> For brevity, we only show the spectrograms and waveforms of the **right channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural images`.
+> For brevity, we only show the spectrograms and waveforms of the **left channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural images`.
 
 <!-- <html> -->
 <!-- <style>
@@ -724,6 +724,7 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
 </table>
 </details>
 <br/>
+ 
 <table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
     <tr>
         <td align='center'>Mixture</td>
@@ -777,8 +778,643 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     </tr>
     </table></div>
 
+
+### Case 7
+  <div align='center'>
+<table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
+    <tr>
+        <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix07s1.PNG'  alt='mix07s1' width='100%'></td>
+        <td> <img src='./img/mix07wv1.PNG'  alt='mix07wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='middle'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet07s1.PNG'  alt='res07s1' width='100%'></td>
+        <td> <img src='./img/ResUNet07wv1.PNG'  alt='res07wv1' width='100%'></td>
+    </tr>
+    <tr>
+        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro07s1.PNG'  alt='pre07s1' width='100%'></td>
+        <td> <img src='./img/preFro07wv1.PNG'  alt='pre07wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs07s1.PNG'  alt='hdemucs07s1' width='100%'></td>
+        <td> <img src='./img/HDemucs07wv1.PNG'  alt='hdemucs07wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd07s1.PNG'  alt='hu07s1' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd07wv1.PNG'  alt='hu07wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean07s1.PNG'  alt='clean07s1' width='100%'></td>
+        <td> <img src='./img/clean07wv1.PNG'  alt='clean07wv1' width='100%'></td>
+    </tr>
+</table>
   
+<details align='right'>
+  <summary>Expand binaural images</summary>
   
+  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+    <tr margin-bottom='0px'>
+      <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix07s2.PNG'  alt='mix07s2' width='100%'></td>
+        <td> <img src='./img/mix07wv2.PNG'  alt='mix07wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet07s2.PNG'  alt='res07s2' width='100%'></td>
+        <td> <img src='./img/ResUNet07wv2.PNG'  alt='res07wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro07s2.PNG'  alt='pre07s2' width='100%'></td>
+        <td> <img src='./img/preFro07wv2.PNG'  alt='pre07wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs07s2.PNG'  alt='hdemucs07s2' width='100%'></td>
+        <td> <img src='./img/HDemucs07wv2.PNG'  alt='hdemucs07wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd07s2.PNG'  alt='hu07s2' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd07wv2.PNG'  alt='hu07wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean07s2.PNG'  alt='clean07s2' width='100%'></td>
+        <td> <img src='./img/clean07wv2.PNG'  alt='clean07wv2' width='100%'></td>
+    </tr>
+</table>
+</details>
+<br/>
+ 
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
+    <tr>
+        <td align='center'>Mixture</td>
+        <td align='center'>ResUNetDecouple+</td>
+        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+    </tr>
+    <tr>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/Mix_Bulldozer_07.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/ResUNet_Bulldozer_07.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/preFro_Bulldozer_07.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    <tr>
+    <td align='center'>Clean</td>
+    <td align='center'>HDemucs</td>
+    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    </tr>
+    <tr>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/clean_Bulldozer_07.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucs_Bulldozer_07.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucsUpd2_Bulldozer_07.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    </table></div>
+    
+
+### Case 8
+  <div align='center'>
+<table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
+    <tr>
+        <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix08s1.PNG'  alt='mix08s1' width='100%'></td>
+        <td> <img src='./img/mix08wv1.PNG'  alt='mix08wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='middle'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet08s1.PNG'  alt='res08s1' width='100%'></td>
+        <td> <img src='./img/ResUNet08wv1.PNG'  alt='res08wv1' width='100%'></td>
+    </tr>
+    <tr>
+        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro08s1.PNG'  alt='pre08s1' width='100%'></td>
+        <td> <img src='./img/preFro08wv1.PNG'  alt='pre08wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs08s1.PNG'  alt='hdemucs08s1' width='100%'></td>
+        <td> <img src='./img/HDemucs08wv1.PNG'  alt='hdemucs08wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd08s1.PNG'  alt='hu08s1' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd08wv1.PNG'  alt='hu08wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean08s1.PNG'  alt='clean08s1' width='100%'></td>
+        <td> <img src='./img/clean08wv1.PNG'  alt='clean08wv1' width='100%'></td>
+    </tr>
+</table>
+  
+<details align='right'>
+  <summary>Expand binaural images</summary>
+  
+  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+    <tr margin-bottom='0px'>
+      <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix08s2.PNG'  alt='mix08s2' width='100%'></td>
+        <td> <img src='./img/mix08wv2.PNG'  alt='mix08wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet08s2.PNG'  alt='res08s2' width='100%'></td>
+        <td> <img src='./img/ResUNet08wv2.PNG'  alt='res08wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro08s2.PNG'  alt='pre08s2' width='100%'></td>
+        <td> <img src='./img/preFro08wv2.PNG'  alt='pre08wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs08s2.PNG'  alt='hdemucs08s2' width='100%'></td>
+        <td> <img src='./img/HDemucs08wv2.PNG'  alt='hdemucs08wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd08s2.PNG'  alt='hu08s2' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd08wv2.PNG'  alt='hu08wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean08s2.PNG'  alt='clean08s2' width='100%'></td>
+        <td> <img src='./img/clean08wv2.PNG'  alt='clean08wv2' width='100%'></td>
+    </tr>
+</table>
+</details>
+<br/>
+ 
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
+    <tr>
+        <td align='center'>Mixture</td>
+        <td align='center'>ResUNetDecouple+</td>
+        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+    </tr>
+    <tr>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/Mix_Shore_08.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/ResUNet_Shore_08.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/preFro_Shore_08.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    <tr>
+    <td align='center'>Clean</td>
+    <td align='center'>HDemucs</td>
+    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    </tr>
+    <tr>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/clean_Shore_08.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucs_Shore_08.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucsUpd2_Shore_08.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    </table></div>
+    
+
+### Case 9
+  <div align='center'>
+<table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
+    <tr>
+        <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix09s1.PNG'  alt='mix09s1' width='100%'></td>
+        <td> <img src='./img/mix09wv1.PNG'  alt='mix09wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='middle'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet09s1.PNG'  alt='res09s1' width='100%'></td>
+        <td> <img src='./img/ResUNet09wv1.PNG'  alt='res09wv1' width='100%'></td>
+    </tr>
+    <tr>
+        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro09s1.PNG'  alt='pre09s1' width='100%'></td>
+        <td> <img src='./img/preFro09wv1.PNG'  alt='pre09wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs09s1.PNG'  alt='hdemucs09s1' width='100%'></td>
+        <td> <img src='./img/HDemucs09wv1.PNG'  alt='hdemucs09wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd09s1.PNG'  alt='hu09s1' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd09wv1.PNG'  alt='hu09wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean09s1.PNG'  alt='clean09s1' width='100%'></td>
+        <td> <img src='./img/clean09wv1.PNG'  alt='clean09wv1' width='100%'></td>
+    </tr>
+</table>
+  
+<details align='right'>
+  <summary>Expand binaural images</summary>
+  
+  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+    <tr margin-bottom='0px'>
+      <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix09s2.PNG'  alt='mix09s2' width='100%'></td>
+        <td> <img src='./img/mix09wv2.PNG'  alt='mix09wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet09s2.PNG'  alt='res09s2' width='100%'></td>
+        <td> <img src='./img/ResUNet09wv2.PNG'  alt='res09wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro09s2.PNG'  alt='pre09s2' width='100%'></td>
+        <td> <img src='./img/preFro09wv2.PNG'  alt='pre09wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs09s2.PNG'  alt='hdemucs09s2' width='100%'></td>
+        <td> <img src='./img/HDemucs09wv2.PNG'  alt='hdemucs09wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd09s2.PNG'  alt='hu09s2' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd09wv2.PNG'  alt='hu09wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean09s2.PNG'  alt='clean09s2' width='100%'></td>
+        <td> <img src='./img/clean09wv2.PNG'  alt='clean09wv2' width='100%'></td>
+    </tr>
+</table>
+</details>
+<br/>
+ 
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
+    <tr>
+        <td align='center'>Mixture</td>
+        <td align='center'>ResUNetDecouple+</td>
+        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+    </tr>
+    <tr>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/Mix_Shore_09.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/ResUNet_Shore_09.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/preFro_Shore_09.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    <tr>
+    <td align='center'>Clean</td>
+    <td align='center'>HDemucs</td>
+    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    </tr>
+    <tr>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/clean_Shore_09.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucs_Shore_09.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucsUpd2_Shore_09.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    </table></div>
+    
+
+### Case 10
+  <div align='center'>
+<table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
+    <tr>
+        <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix10s1.PNG'  alt='mix10s1' width='100%'></td>
+        <td> <img src='./img/mix10wv1.PNG'  alt='mix10wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='middle'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet10s1.PNG'  alt='res10s1' width='100%'></td>
+        <td> <img src='./img/ResUNet10wv1.PNG'  alt='res10wv1' width='100%'></td>
+    </tr>
+    <tr>
+        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro10s1.PNG'  alt='pre10s1' width='100%'></td>
+        <td> <img src='./img/preFro10wv1.PNG'  alt='pre10wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs10s1.PNG'  alt='hdemucs10s1' width='100%'></td>
+        <td> <img src='./img/HDemucs10wv1.PNG'  alt='hdemucs10wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd10s1.PNG'  alt='hu10s1' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd10wv1.PNG'  alt='hu10wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean10s1.PNG'  alt='clean10s1' width='100%'></td>
+        <td> <img src='./img/clean10wv1.PNG'  alt='clean10wv1' width='100%'></td>
+    </tr>
+</table>
+  
+<details align='right'>
+  <summary>Expand binaural images</summary>
+  
+  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+    <tr margin-bottom='0px'>
+      <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix10s2.PNG'  alt='mix10s2' width='100%'></td>
+        <td> <img src='./img/mix10wv2.PNG'  alt='mix10wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet10s2.PNG'  alt='res10s2' width='100%'></td>
+        <td> <img src='./img/ResUNet10wv2.PNG'  alt='res10wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro10s2.PNG'  alt='pre10s2' width='100%'></td>
+        <td> <img src='./img/preFro10wv2.PNG'  alt='pre10wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs10s2.PNG'  alt='hdemucs10s2' width='100%'></td>
+        <td> <img src='./img/HDemucs10wv2.PNG'  alt='hdemucs10wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd10s2.PNG'  alt='hu10s2' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd10wv2.PNG'  alt='hu10wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean10s2.PNG'  alt='clean10s2' width='100%'></td>
+        <td> <img src='./img/clean10wv2.PNG'  alt='clean10wv2' width='100%'></td>
+    </tr>
+</table>
+</details>
+<br/>
+ 
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
+    <tr>
+        <td align='center'>Mixture</td>
+        <td align='center'>ResUNetDecouple+</td>
+        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+    </tr>
+    <tr>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/Mix_Finest_10.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/ResUNet_Finest_10.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/preFro_Finest_10.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    <tr>
+    <td align='center'>Clean</td>
+    <td align='center'>HDemucs</td>
+    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    </tr>
+    <tr>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/clean_Finest_10.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucs_Finest_10.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucsUpd2_Finest_10.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    </table></div>
+    
+
+### Case 11
+  <div align='center'>
+<table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
+    <tr>
+        <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix11s1.PNG'  alt='mix11s1' width='100%'></td>
+        <td> <img src='./img/mix11wv1.PNG'  alt='mix11wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='middle'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet11s1.PNG'  alt='res11s1' width='100%'></td>
+        <td> <img src='./img/ResUNet11wv1.PNG'  alt='res11wv1' width='100%'></td>
+    </tr>
+    <tr>
+        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro11s1.PNG'  alt='pre11s1' width='100%'></td>
+        <td> <img src='./img/preFro11wv1.PNG'  alt='pre11wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs11s1.PNG'  alt='hdemucs11s1' width='100%'></td>
+        <td> <img src='./img/HDemucs11wv1.PNG'  alt='hdemucs11wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd11s1.PNG'  alt='hu11s1' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd11wv1.PNG'  alt='hu11wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean11s1.PNG'  alt='clean11s1' width='100%'></td>
+        <td> <img src='./img/clean11wv1.PNG'  alt='clean11wv1' width='100%'></td>
+    </tr>
+</table>
+  
+<details align='right'>
+  <summary>Expand binaural images</summary>
+  
+  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+    <tr margin-bottom='0px'>
+      <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix11s2.PNG'  alt='mix11s2' width='100%'></td>
+        <td> <img src='./img/mix11wv2.PNG'  alt='mix11wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet11s2.PNG'  alt='res11s2' width='100%'></td>
+        <td> <img src='./img/ResUNe11wv2.PNG'  alt='res11wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro11s2.PNG'  alt='pre11s2' width='100%'></td>
+        <td> <img src='./img/preFro11wv2.PNG'  alt='pre11wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs11s2.PNG'  alt='hdemucs11s2' width='100%'></td>
+        <td> <img src='./img/HDemucs11wv2.PNG'  alt='hdemucs11wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd11s2.PNG'  alt='hu11s2' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd11wv2.PNG'  alt='hu11wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Clean</b> </td>
+        <td> <img src='./img/clean11s2.PNG'  alt='clean11s2' width='100%'></td>
+        <td> <img src='./img/clean11wv2.PNG'  alt='clean11wv2' width='100%'></td>
+    </tr>
+</table>
+</details>
+<br/>
+ 
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
+    <tr>
+        <td align='center'>Mixture</td>
+        <td align='center'>ResUNetDecouple+</td>
+        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+    </tr>
+    <tr>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/Mix_Actor_11.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/ResUNet_Actor_11.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/preFro_Actor_11.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    <tr>
+    <td align='center'>Clean</td>
+    <td align='center'>HDemucs</td>
+    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    </tr>
+    <tr>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/clean_Actor_11.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucs_Actor_11.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./wav/HDemucsUpd2_Actor_11.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    </table></div>
+    
+  
+    
 <!-- </html> 
 
 ### Small image
