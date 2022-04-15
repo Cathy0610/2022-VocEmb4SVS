@@ -432,7 +432,7 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./img/clean04s1.PNG'  alt='clean04s1' width='100%'></td>
+        <td> <img src='./img/clean04s1.png'  alt='clean04s1' width='100%'></td>
         <td> <img src='./img/clean04wv1.PNG'  alt='clean04wv1' width='100%'></td>
     </tr>
 </table>
@@ -468,7 +468,7 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./img/clean04s2.PNG'  alt='clean04s2' width='100%'></td>
+        <td> <img src='./img/clean04s2.png'  alt='clean04s2' width='100%'></td>
         <td> <img src='./img/clean04wv2.PNG'  alt='clean04wv2' width='100%'></td>
     </tr>
 </table>
