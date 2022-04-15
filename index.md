@@ -1334,7 +1334,7 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
       <td align='center'> <b>ResUNetDecouple+</b> </td>
         <td> <img src='./img/ResUNet11s2.PNG'  alt='res11s2' width='100%'></td>
-        <td> <img src='./img/ResUNe11wv2.PNG'  alt='res11wv2' width='100%'></td>
+        <td> <img src='./img/ResUNet11wv2.PNG'  alt='res11wv2' width='100%'></td>
     </tr>
     <tr>
       <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
