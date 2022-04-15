@@ -734,19 +734,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Bulldozer_06.wav" type="audio/wav">
+            <source src="./data/Mix_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Bulldozer_06.wav" type="audio/wav">
+            <source src="./data/ResUNet_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Bulldozer_06.wav" type="audio/wav">
+            <source src="./data/preFro_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -759,19 +759,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Bulldozer_06.wav" type="audio/wav">
+            <source src="./data/clean_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Bulldozer_06.wav" type="audio/wav">
+            <source src="./data/HDemucs_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Bulldozer_06.wav" type="audio/wav">
+            <source src="./data/HDemucsUpd2_Bulldozer_06.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -988,19 +988,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Shore_08.wav" type="audio/wav">
+            <source src="./data/Mix_Shore_08.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Shore_08.wav" type="audio/wav">
+            <source src="./data/ResUNet_Shore_08.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Shore_08.wav" type="audio/wav">
+            <source src="./data/preFro_Shore_08.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1013,19 +1013,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Shore_08.wav" type="audio/wav">
+            <source src="./data/clean_Shore_08.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Shore_08.wav" type="audio/wav">
+            <source src="./data/HDemucs_Shore_08.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Shore_08.wav" type="audio/wav">
+            <source src="./data/HDemucsUpd2_Shore_08.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1115,19 +1115,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Shore_09.wav" type="audio/wav">
+            <source src="./data/Mix_Shore_09.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Shore_09.wav" type="audio/wav">
+            <source src="./data/ResUNet_Shore_09.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Shore_09.wav" type="audio/wav">
+            <source src="./data/preFro_Shore_09.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1140,19 +1140,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Shore_09.wav" type="audio/wav">
+            <source src="./data/clean_Shore_09.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Shore_09.wav" type="audio/wav">
+            <source src="./data/HDemucs_Shore_09.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Shore_09.wav" type="audio/wav">
+            <source src="./data/HDemucsUpd2_Shore_09.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1242,19 +1242,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Finest_10.wav" type="audio/wav">
+            <source src="./data/Mix_Finest_10.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Finest_10.wav" type="audio/wav">
+            <source src="./data/ResUNet_Finest_10.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Finest_10.wav" type="audio/wav">
+            <source src="./data/preFro_Finest_10.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1267,19 +1267,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Finest_10.wav" type="audio/wav">
+            <source src="./data/clean_Finest_10.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Finest_10.wav" type="audio/wav">
+            <source src="./data/HDemucs_Finest_10.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Finest_10.wav" type="audio/wav">
+            <source src="./data/HDemucsUpd2_Finest_10.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1369,19 +1369,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/Mix_Actor_11.wav" type="audio/wav">
+            <source src="./data/Mix_Actor_11.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/ResUNet_Actor_11.wav" type="audio/wav">
+            <source src="./data/ResUNet_Actor_11.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/preFro_Actor_11.wav" type="audio/wav">
+            <source src="./data/preFro_Actor_11.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1394,19 +1394,19 @@ These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.gi
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/clean_Actor_11.wav" type="audio/wav">
+            <source src="./data/clean_Actor_11.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucs_Actor_11.wav" type="audio/wav">
+            <source src="./data/HDemucs_Actor_11.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./wav/HDemucsUpd2_Actor_11.wav" type="audio/wav">
+            <source src="./data/HDemucsUpd2_Actor_11.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
