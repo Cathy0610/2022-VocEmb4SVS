@@ -1333,7 +1333,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./img/clean04s1.png'  alt='clean04s1' width='100%'></td>
+        <td> <img src='./img/clean04s1.PNG'  alt='clean04s1' width='100%'></td>
         <td> <img src='./img/clean04wv1.PNG'  alt='clean04wv1' width='100%'></td>
     </tr>
 </table>
@@ -1369,7 +1369,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </tr>
     <tr>
       <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./img/clean04s2.png'  alt='clean04s2' width='100%'></td>
+        <td> <img src='./img/clean04s2.PNG'  alt='clean04s2' width='100%'></td>
         <td> <img src='./img/clean04wv2.PNG'  alt='clean04wv2' width='100%'></td>
     </tr>
 </table>
