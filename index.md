@@ -28,7 +28,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
 
 ### Reducing the distortion of separated vocals
 
-#### Case 5
+#### Case 1
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -155,7 +155,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
  
     
 
-#### Case 8
+#### Case 2
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -283,7 +283,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     
 
 
-#### Case 10
+#### Case 3
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -415,7 +415,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
 
 ### Reducing the interference of accompaniments
 
-#### Case 2
+#### Case 4
 <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -541,7 +541,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
   </table></div>
   
 
-#### Case 3
+#### Case 5
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -921,7 +921,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </table></div>
 
 
-#### Case 9
+#### Case 8
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -1048,7 +1048,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </table></div>
     
 
-#### Case 11
+#### Case 9
 <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -1175,7 +1175,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     
 ## With reverb
 
-#### Case 1
+#### Case 10
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -1303,7 +1303,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
 
 
 
-#### Case 4
+#### Case 11
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
