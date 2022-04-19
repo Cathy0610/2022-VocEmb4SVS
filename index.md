@@ -13,7 +13,7 @@ layout: default
 ---
 
 ## Introduction of the demo
-Since we aim at reducing the distortion of vocals and interference of accompaniments, our demos demonstrate the improvement of _separator P_ applying **VocEmb4Sep** compared with the original _separator P_. In addition, as our studied separation systems only generate separated vocals without reverb, we list music with reverb to demonstrate the de-reverberation effect of the separation systems. The demos of vocals separated by different methods classified according to their major effectiveness are listed below. These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). `VocEmb4Sep (Separator P)` means applying our proposed method **VocEmb4Sep** on _Separator P_. 
+Since we aim at reducing the distortion of vocals and interference of accompaniments, our demos demonstrate the improvement of _separator P_ applying **VocEmb4Sep** compared with the original _separator P_. In addition, we display the vocal extraction effects when there are sound effects in the music.  The demos of vocals separated by different methods classified according to their major effectiveness are listed below. These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). `VocEmb4Sep (Separator P)` means applying our proposed method **VocEmb4Sep** on _Separator P_. 
 
 > For brevity, we only show the spectrograms and waveforms of the **left channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural images`.
 
@@ -24,138 +24,9 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
 </style> -->
 
 
-## Without reverb
+## Reducing the distortion of separated vocals
 
-### Reducing the distortion of separated vocals
-
-#### Case 1
-  <div align='center'>
-<table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
-    <tr>
-        <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./img/mix05s1.PNG'  alt='mix05s1' width='100%'></td>
-        <td> <img src='./img/mix05wv1.PNG'  alt='mix05wv1' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='middle'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./img/ResUNet05s1.PNG'  alt='res05s1' width='100%'></td>
-        <td> <img src='./img/ResUNet05wv1.PNG'  alt='res05wv1' width='100%'></td>
-    </tr>
-    <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./img/preFro05s1.PNG'  alt='pre05s1' width='100%'></td>
-        <td> <img src='./img/preFro05wv1.PNG'  alt='pre05wv1' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./img/HDemucs05s1.PNG'  alt='hdemucs05s1' width='100%'></td>
-        <td> <img src='./img/HDemucs05wv1.PNG'  alt='hdemucs05wv1' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./img/HDemucsUpd05s1.PNG'  alt='hu05s1' width='100%'></td>
-        <td> <img src='./img/HDemucsUpd05wv1.PNG'  alt='hu05wv1' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./img/clean05s1.PNG'  alt='clean05s1' width='100%'></td>
-        <td> <img src='./img/clean05wv1.PNG'  alt='clean05wv1' width='100%'></td>
-    </tr>
-</table>
-  
-<details align='right'>
-  <summary>Expand binaural images</summary>
-  
-  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
-    <tr margin-bottom='0px'>
-      <td align='center'> <b>Mixture</b> </td>
-        <td> <img src='./img/mix05s2.PNG'  alt='mix05s2' width='100%'></td>
-        <td> <img src='./img/mix05wv2.PNG'  alt='mix05wv2' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='center'> <b>ResUNetDecouple+</b> </td>
-        <td> <img src='./img/ResUNet05s2.PNG'  alt='res05s2' width='100%'></td>
-        <td> <img src='./img/ResUNet05wv2.PNG'  alt='res05wv2' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
-        <td> <img src='./img/preFro05s2.PNG'  alt='pre05s2' width='100%'></td>
-        <td> <img src='./img/preFro05wv2.PNG'  alt='pre05wv2' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='center'> <b>HDemucs</b> </td>
-        <td> <img src='./img/HDemucs05s2.PNG'  alt='hdemucs05s2' width='100%'></td>
-        <td> <img src='./img/HDemucs05wv2.PNG'  alt='hdemucs05wv2' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
-        <td> <img src='./img/HDemucsUpd05s2.PNG'  alt='hu05s2' width='100%'></td>
-        <td> <img src='./img/HDemucsUpd05wv2.PNG'  alt='hu05wv2' width='100%'></td>
-    </tr>
-    <tr>
-      <td align='center'> <b>Clean</b> </td>
-        <td> <img src='./img/clean05s2.PNG'  alt='clean05s2' width='100%'></td>
-        <td> <img src='./img/clean05wv2.PNG'  alt='clean05wv2' width='100%'></td>
-    </tr>
-</table>
-</details>
-<br/>
-<table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
-    <tr>
-        <td align='center'>Mixture</td>
-        <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
-    </tr>
-    <tr>
-    	<td align='center' width='30%'>
-        <audio controls>
-            <source src="./data/mix_Moos_05.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-        </td>
-    	<td align='center' width='30%'>
-        <audio controls>
-            <source src="./data/ResUNet_Moos_05.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-        </td>
-    	<td align='center' width='30%'>
-        <audio controls>
-            <source src="./data/preFro_Moos_05.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-        </td>
-    </tr>
-    <tr>
-    <td align='center'>Clean</td>
-    <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
-    </tr>
-    <tr>
-        <td align='center' width='30%'>
-        <audio controls>
-            <source src="./data/clean_Moos_05.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-        </td>
-        <td align='center' width='30%'>
-        <audio controls>
-            <source src="./data/HDemucs_Moos_05.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-        </td>
-        <td align='center' width='30%'>
-        <audio controls>
-            <source src="./data/HDemucsUpd_Moos_05.wav" type="audio/wav">
-            Your browser does not support the audio element.
-        </audio>
-        </td>
-    </tr>
-    </table></div>
- 
-    
-
-#### Case 2
+### Case 2
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -184,7 +55,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd08wv1.PNG'  alt='hu08wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean08s1.PNG'  alt='clean08s1' width='100%'></td>
         <td> <img src='./img/clean08wv1.PNG'  alt='clean08wv1' width='100%'></td>
     </tr>
@@ -220,7 +91,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd08wv2.PNG'  alt='hu08wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean08s2.PNG'  alt='clean08s2' width='100%'></td>
         <td> <img src='./img/clean08wv2.PNG'  alt='clean08wv2' width='100%'></td>
     </tr>
@@ -255,7 +126,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         </td>
     </tr>
     <tr>
-    <td align='center'>Clean</td>
+    <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     </tr>
@@ -282,7 +153,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </table></div>
     
 
-#### Case 3
+### Case 3
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -311,7 +182,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd03wv1.PNG'  alt='hu03wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean03s1.PNG'  alt='clean03s1' width='100%'></td>
         <td> <img src='./img/clean03wv1.PNG'  alt='clean03wv1' width='100%'></td>
     </tr>
@@ -347,7 +218,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd03wv2.PNG'  alt='hu03wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean03s2.PNG'  alt='clean03s2' width='100%'></td>
         <td> <img src='./img/clean03wv2.PNG'  alt='clean03wv2' width='100%'></td>
     </tr>
@@ -381,7 +252,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         </td>
     </tr>
     <tr>
-    <td align='center'>Clean</td>
+    <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     </tr>
@@ -410,9 +281,9 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
 
 
 
-### Reducing the interference of accompaniments
+## Reducing the interference of accompaniments
 
-#### Case 4
+### Case 4
 <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -441,7 +312,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd011wv1.PNG'  alt='hu02wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean011s1.PNG'  alt='clean02s1' width='100%'></td>
         <td> <img src='./img/clean011wv1.PNG'  alt='clean02wv1' width='100%'></td>
     </tr>
@@ -477,7 +348,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd011wv2.PNG'  alt='hu02wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean011s2.PNG'  alt='clean02s2' width='100%'></td>
         <td> <img src='./img/clean011wv2.PNG'  alt='clean02wv2' width='100%'></td>
     </tr>
@@ -511,7 +382,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         </td>
     </tr>
     <tr>
-    <td align='center'>Clean</td>
+    <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     </tr>
@@ -538,7 +409,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
   </table></div>
   
 
-#### Case 5
+### Case 5
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -567,7 +438,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd06wv1.PNG'  alt='hu06wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean06s1.PNG'  alt='clean06s1' width='100%'></td>
         <td> <img src='./img/clean06wv1.PNG'  alt='clean06wv1' width='100%'></td>
     </tr>
@@ -603,7 +474,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd06wv2.PNG'  alt='hu06wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean06s2.PNG'  alt='clean06s2' width='100%'></td>
         <td> <img src='./img/clean06wv2.PNG'  alt='clean06wv2' width='100%'></td>
     </tr>
@@ -638,7 +509,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         </td>
     </tr>
     <tr>
-    <td align='center'>Clean</td>
+    <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     </tr>
@@ -665,7 +536,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </table></div>
 
  
-#### Case 6
+### Case 6
 
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
@@ -695,7 +566,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd07wv1.PNG'  alt='hu07wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean07s1.PNG'  alt='clean07s1' width='100%'></td>
         <td> <img src='./img/clean07wv1.PNG'  alt='clean07wv1' width='100%'></td>
     </tr>
@@ -731,7 +602,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd07wv2.PNG'  alt='hu07wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean07s2.PNG'  alt='clean07s2' width='100%'></td>
         <td> <img src='./img/clean07wv2.PNG'  alt='clean07wv2' width='100%'></td>
     </tr>
@@ -766,7 +637,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         </td>
     </tr>
     <tr>
-    <td align='center'>Clean</td>
+    <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     </tr>
@@ -793,7 +664,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </table></div>
 
 
-#### Case 7
+### Case 7
 <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -822,7 +693,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd012wv1.PNG'  alt='hu01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean012s1.PNG'  alt='clean01s1' width='100%'></td>
         <td> <img src='./img/clean012wv1.PNG'  alt='clean01wv1' width='100%'></td>
     </tr>
@@ -858,7 +729,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucsUpd012wv2.PNG'  alt='hu01wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean012s2.PNG'  alt='clean01s2' width='100%'></td>
         <td> <img src='./img/clean012wv2.PNG'  alt='clean01wv2' width='100%'></td>
     </tr>
@@ -892,7 +763,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         </td>
     </tr>
     <tr>
-    <td align='center'>Clean</td>
+    <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     </tr>
@@ -918,10 +789,10 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </tr>
   </table></div>  
     
-## With reverb
-In this part, we list music with reverb to demonstrate the de-reverberation effect of the separation systems.
+## Extract clean vocals from scenes with sound effects
+In this part, we list music clips with sound effects. The results show that the separation systems can separate clean vocals with the sound effects reduced.
 
-#### Case 8
+### Case 8
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -950,7 +821,7 @@ In this part, we list music with reverb to demonstrate the de-reverberation effe
         <td> <img src='./img/HDemucsUpd11wv1.PNG'  alt='hu11wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean11s1.PNG'  alt='clean11s1' width='100%'></td>
         <td> <img src='./img/clean11wv1.PNG'  alt='clean11wv1' width='100%'></td>
     </tr>
@@ -986,7 +857,7 @@ In this part, we list music with reverb to demonstrate the de-reverberation effe
         <td> <img src='./img/HDemucsUpd11wv2.PNG'  alt='hu11wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean11s2.PNG'  alt='clean11s2' width='100%'></td>
         <td> <img src='./img/clean11wv2.PNG'  alt='clean11wv2' width='100%'></td>
     </tr>
@@ -1021,7 +892,7 @@ In this part, we list music with reverb to demonstrate the de-reverberation effe
         </td>
     </tr>
     <tr>
-    <td align='center'>Clean</td>
+    <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     </tr>
@@ -1049,7 +920,7 @@ In this part, we list music with reverb to demonstrate the de-reverberation effe
 
 
 
-#### Case 9
+### Case 9
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -1078,7 +949,7 @@ In this part, we list music with reverb to demonstrate the de-reverberation effe
         <td> <img src='./img/HDemucsUpd04wv1.PNG'  alt='hu04wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean04s1.PNG'  alt='clean04s1' width='100%'></td>
         <td> <img src='./img/clean04wv1.PNG'  alt='clean04wv1' width='100%'></td>
     </tr>
@@ -1114,7 +985,7 @@ In this part, we list music with reverb to demonstrate the de-reverberation effe
         <td> <img src='./img/HDemucsUpd04wv2.PNG'  alt='hu04wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>Clean</b> </td>
+      <td align='center'> <b>Reference</b> </td>
         <td> <img src='./img/clean04s2.PNG'  alt='clean04s2' width='100%'></td>
         <td> <img src='./img/clean04wv2.PNG'  alt='clean04wv2' width='100%'></td>
     </tr>
@@ -1148,7 +1019,7 @@ In this part, we list music with reverb to demonstrate the de-reverberation effe
         </td>
     </tr>
     <tr>
-    <td align='center'>Clean</td>
+    <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
     <td align='center'>VocEmb4Sep (HDemucs)</td>
     </tr>
@@ -1174,4 +1045,129 @@ In this part, we list music with reverb to demonstrate the de-reverberation effe
     </tr>
     </table></div>
   
-
+### Case 1
+  <div align='center'>
+<table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
+    <tr>
+        <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix05s1.PNG'  alt='mix05s1' width='100%'></td>
+        <td> <img src='./img/mix05wv1.PNG'  alt='mix05wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='middle'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet05s1.PNG'  alt='res05s1' width='100%'></td>
+        <td> <img src='./img/ResUNet05wv1.PNG'  alt='res05wv1' width='100%'></td>
+    </tr>
+    <tr>
+        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro05s1.PNG'  alt='pre05s1' width='100%'></td>
+        <td> <img src='./img/preFro05wv1.PNG'  alt='pre05wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs05s1.PNG'  alt='hdemucs05s1' width='100%'></td>
+        <td> <img src='./img/HDemucs05wv1.PNG'  alt='hdemucs05wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd05s1.PNG'  alt='hu05s1' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd05wv1.PNG'  alt='hu05wv1' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Reference</b> </td>
+        <td> <img src='./img/clean05s1.PNG'  alt='clean05s1' width='100%'></td>
+        <td> <img src='./img/clean05wv1.PNG'  alt='clean05wv1' width='100%'></td>
+    </tr>
+</table>
+  
+<details align='right'>
+  <summary>Expand binaural images</summary>
+  
+  <table style="margin-left: auto; margin-right: auto; align:center; border: none!important">
+    <tr margin-bottom='0px'>
+      <td align='center'> <b>Mixture</b> </td>
+        <td> <img src='./img/mix05s2.PNG'  alt='mix05s2' width='100%'></td>
+        <td> <img src='./img/mix05wv2.PNG'  alt='mix05wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>ResUNetDecouple+</b> </td>
+        <td> <img src='./img/ResUNet05s2.PNG'  alt='res05s2' width='100%'></td>
+        <td> <img src='./img/ResUNet05wv2.PNG'  alt='res05wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td> <img src='./img/preFro05s2.PNG'  alt='pre05s2' width='100%'></td>
+        <td> <img src='./img/preFro05wv2.PNG'  alt='pre05wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>HDemucs</b> </td>
+        <td> <img src='./img/HDemucs05s2.PNG'  alt='hdemucs05s2' width='100%'></td>
+        <td> <img src='./img/HDemucs05wv2.PNG'  alt='hdemucs05wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+        <td> <img src='./img/HDemucsUpd05s2.PNG'  alt='hu05s2' width='100%'></td>
+        <td> <img src='./img/HDemucsUpd05wv2.PNG'  alt='hu05wv2' width='100%'></td>
+    </tr>
+    <tr>
+      <td align='center'> <b>Reference</b> </td>
+        <td> <img src='./img/clean05s2.PNG'  alt='clean05s2' width='100%'></td>
+        <td> <img src='./img/clean05wv2.PNG'  alt='clean05wv2' width='100%'></td>
+    </tr>
+</table>
+</details>
+<br/>
+<table style="margin-left: auto; margin-right: auto; align:center; border: none!important; width: 100%">
+    <tr>
+        <td align='center'>Mixture</td>
+        <td align='center'>ResUNetDecouple+</td>
+        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+    </tr>
+    <tr>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./data/mix_Moos_05.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./data/ResUNet_Moos_05.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    	<td align='center' width='30%'>
+        <audio controls>
+            <source src="./data/preFro_Moos_05.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    <tr>
+    <td align='center'>Reference</td>
+    <td align='center'>HDemucs</td>
+    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    </tr>
+    <tr>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./data/clean_Moos_05.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./data/HDemucs_Moos_05.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+        <td align='center' width='30%'>
+        <audio controls>
+            <source src="./data/HDemucsUpd_Moos_05.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        </td>
+    </tr>
+    </table></div>
+ 
+  
