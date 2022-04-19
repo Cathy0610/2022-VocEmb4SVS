@@ -26,7 +26,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
 
 ## Reducing the distortion of separated vocals
 
-### Case 2
+### Case 1
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -153,7 +153,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </table></div>
     
 
-### Case 3
+### Case 2
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -283,7 +283,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
 
 ## Reducing the interference of accompaniments
 
-### Case 4
+### Case 3
 <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -409,7 +409,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
   </table></div>
   
 
-### Case 5
+### Case 4
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -536,7 +536,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </table></div>
 
  
-### Case 6
+### Case 5
 
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
@@ -664,7 +664,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     </table></div>
 
 
-### Case 7
+### Case 6
 <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -792,7 +792,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
 ## Extract clean vocals from scenes with sound effects
 In this part, we list music clips with sound effects. The results show that the separation systems can separate clean vocals with the sound effects reduced.
 
-### Case 8
+### Case 7
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -920,7 +920,7 @@ In this part, we list music clips with sound effects. The results show that the 
 
 
 
-### Case 9
+### Case 8
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
@@ -1127,19 +1127,19 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./data/mix_Atrophy_04.wav" type="audio/wav">
+            <source src="./wav/Mix_Atrophy_02.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./data/ResUNet_OHNO_04.wav" type="audio/wav">
+            <source src="./wav/ResUNet_Atrophy_02.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
     	<td align='center' width='30%'>
         <audio controls>
-            <source src="./data/preFro_OHNO_04.wav" type="audio/wav">
+            <source src="./wav/preFro_Atrophy_02.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1152,19 +1152,19 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./data/clean_OHNO_04.wav" type="audio/wav">
+            <source src="./wav/clean_Atrophy_02.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./data/HDemucs_OHNO_04.wav" type="audio/wav">
+            <source src="./wav/HDemucs_Atrophy_02.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
         <td align='center' width='30%'>
         <audio controls>
-            <source src="./data/HDemucsUpd_OHNO_04.wav" type="audio/wav">
+            <source src="./wav/HDemucsUpd2_Atrophy_02.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </td>
@@ -1172,7 +1172,7 @@ In this part, we list music clips with sound effects. The results show that the 
     </table></div>
   
   
-### Case 1
+### Case 10
   <div align='center'>
 <table style="margin: 0,auto; align:center; vertical-align:middle; border: none!important">
     <tr>
