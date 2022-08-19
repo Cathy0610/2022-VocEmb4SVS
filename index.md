@@ -4,11 +4,11 @@ layout: default
  -->
 
 
-# VocEmb4Sep: Boosting the Performance of Singing Voice Separation by Vocal Embeddings
-### _Chenyi Li, Yi Li, Xuhao Du, Zhiyong Wu_
+# VocEmb4SVS: Improving Singing Voice Separation with Vocal Embeddings
+### _Chenyi Li, Yi Li, Xuhao Du, Yaolong Ju, Shichao Hu, Zhiyong Wu_
 
 ### Abstract
-> Deep learning based methods have shown improved performance on singing voice separation (SVS). Most separation systems only pay attention to the separated sources while a few systems would consider auxiliary information. Aiming to separate cleaner vocals from the mixed music, we propose VocEmb4Sep to utilize vocal feature embeddings as auxiliary knowledge to condition the separation system and explore various ways to enhance the regulation effect of the embeddings on the SVS system. In this paper, firstly, a vocal feature encoder is trained to extract fine-grained vocal feature embeddings from pre-separated vocals. Secondly, an adaptation block is developed to integrate the embeddings into various separation networks. Finally, efficient training strategies are proposed to boost the conditional performance of the embeddings to the separation system. The experimental results demonstrate that our best strategy outperforms other separation systems on the MUSDB18 dataset with an SDR of 9.56 dB on vocals, establishing a new state-of-the-art for the separation of vocals.
+> Deep learning-based methods have shown promising performance on singing voice separation (SVS). Recently, embeddings related to lyrics and voice activities have been proven effective to improve the performance of SVS tasks. However, embeddings related to singers have never been studied before. In this paper, we propose VocEmb4SVS, an SVS framework to utilize vocal embeddings of the singer as auxiliary knowledge for SVS conditioning. First, a pre-trained separation network is employed to obtain pre-separated vocals from the mixed music signals. Second, a vocal encoder is trained to extract vocal embeddings from the pre-separated vocals. Finally, the vocal embeddings are integrated into the separation network to improve SVS performance. Experimental results show that our proposed method achieves state-of-the-art results on the MUSDB18 dataset with an SDR of 9.56 dB on vocals.
 
 ---
 
