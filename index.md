@@ -13,7 +13,7 @@ layout: default
 ---
 
 ## Introduction of the demo
-Since we aim at reducing the distortion of vocals and interference of accompaniments, our demos demonstrate the improvement of _separator P_ applying **VocEmb4Sep** compared with the original _separator P_. In addition, we display the vocal extraction effects when there are sound effects in the music.  The demos of vocals separated by different methods classified according to their major effectiveness are listed below. These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). `VocEmb4Sep (Separator P)` means applying our proposed method **VocEmb4Sep** on _Separator P_ and `Reference` means the ground-truth vocals in the mixed music from the open datasets [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). 
+Since we aim at reducing the distortion of vocals and interference of accompaniments, our demos demonstrate the improvement of _separator P_ applying **VocEmb4SVS** compared with the original _separator P_. In addition, we display the vocal extraction effects when there are sound effects in the music.  The demos of vocals separated by different methods classified according to their major effectiveness are listed below. These are some binaural music clips cut from [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). `VocEmb4SVS (Separator P)` means applying our proposed method **VocEmb4SVS** on _Separator P_ and `Reference` means the ground-truth vocals in the mixed music from the open datasets [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). 
 
 > For brevity, we only show the spectrograms and waveforms of the **left channel**. To see the complete binaural spectrograms and waveforms, please click on `Expand binaural images`.
 
@@ -40,7 +40,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet08wv1.PNG'  alt='res08wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro08s1.PNG'  alt='pre08s1' width='100%'></td>
         <td> <img src='./img/preFro08wv1.PNG'  alt='pre08wv1' width='100%'></td>
     </tr>
@@ -50,7 +50,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs08wv1.PNG'  alt='hdemucs08wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd08s1.PNG'  alt='hu08s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd08wv1.PNG'  alt='hu08wv1' width='100%'></td>
     </tr>
@@ -76,7 +76,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet08wv2.PNG'  alt='res08wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro08s2.PNG'  alt='pre08s2' width='100%'></td>
         <td> <img src='./img/preFro08wv2.PNG'  alt='pre08wv2' width='100%'></td>
     </tr>
@@ -86,7 +86,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs08wv2.PNG'  alt='hdemucs08wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd08s2.PNG'  alt='hu08s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd08wv2.PNG'  alt='hu08wv2' width='100%'></td>
     </tr>
@@ -103,7 +103,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -128,7 +128,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
@@ -167,7 +167,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet03wv1.PNG'  alt='res03wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro03s1.PNG'  alt='pre03s1' width='100%'></td>
         <td> <img src='./img/preFro03wv1.PNG'  alt='pre03wv1' width='100%'></td>
     </tr>
@@ -177,7 +177,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs03wv1.PNG'  alt='hdemucs03wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd03s1.PNG'  alt='hu03s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd03wv1.PNG'  alt='hu03wv1' width='100%'></td>
     </tr>
@@ -203,7 +203,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet03wv2.PNG'  alt='res03wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro03s2.PNG'  alt='pre03s2' width='100%'></td>
         <td> <img src='./img/preFro03wv2.PNG'  alt='pre03wv2' width='100%'></td>
     </tr>
@@ -213,7 +213,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs03wv2.PNG'  alt='hdemucs03wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd03s2.PNG'  alt='hu03s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd03wv2.PNG'  alt='hu03wv2' width='100%'></td>
     </tr>
@@ -229,7 +229,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -254,7 +254,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
@@ -297,7 +297,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet011wv1.PNG'  alt='res02wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro011s1.PNG'  alt='pre02s1' width='100%'></td>
         <td> <img src='./img/preFro011wv1.PNG'  alt='pre02wv1' width='100%'></td>
     </tr>
@@ -307,7 +307,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs011wv1.PNG'  alt='hdemucs02wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd011s1.PNG'  alt='hu02s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd011wv1.PNG'  alt='hu02wv1' width='100%'></td>
     </tr>
@@ -333,7 +333,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet011wv2.PNG'  alt='res02wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro011s2.PNG'  alt='pre02s2' width='100%'></td>
         <td> <img src='./img/preFro011wv2.PNG'  alt='pre02wv2' width='100%'></td>
     </tr>
@@ -343,7 +343,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs011wv2.PNG'  alt='hdemucs02wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd011s2.PNG'  alt='hu02s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd011wv2.PNG'  alt='hu02wv2' width='100%'></td>
     </tr>
@@ -359,7 +359,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -384,7 +384,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
@@ -423,7 +423,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet06wv1.PNG'  alt='res06wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro06s1.PNG'  alt='pre06s1' width='100%'></td>
         <td> <img src='./img/preFro06wv1.PNG'  alt='pre06wv1' width='100%'></td>
     </tr>
@@ -433,7 +433,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs06wv1.PNG'  alt='hdemucs06wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd06s1.PNG'  alt='hu06s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd06wv1.PNG'  alt='hu06wv1' width='100%'></td>
     </tr>
@@ -459,7 +459,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet06wv2.PNG'  alt='res06wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro06s2.PNG'  alt='pre06s2' width='100%'></td>
         <td> <img src='./img/preFro06wv2.PNG'  alt='pre06wv2' width='100%'></td>
     </tr>
@@ -469,7 +469,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs06wv2.PNG'  alt='hdemucs06wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd06s2.PNG'  alt='hu06s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd06wv2.PNG'  alt='hu06wv2' width='100%'></td>
     </tr>
@@ -486,7 +486,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -511,7 +511,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
@@ -551,7 +551,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet07wv1.PNG'  alt='res07wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro07s1.PNG'  alt='pre07s1' width='100%'></td>
         <td> <img src='./img/preFro07wv1.PNG'  alt='pre07wv1' width='100%'></td>
     </tr>
@@ -561,7 +561,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs07wv1.PNG'  alt='hdemucs07wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd07s1.PNG'  alt='hu07s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd07wv1.PNG'  alt='hu07wv1' width='100%'></td>
     </tr>
@@ -587,7 +587,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet07wv2.PNG'  alt='res07wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro07s2.PNG'  alt='pre07s2' width='100%'></td>
         <td> <img src='./img/preFro07wv2.PNG'  alt='pre07wv2' width='100%'></td>
     </tr>
@@ -597,7 +597,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs07wv2.PNG'  alt='hdemucs07wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd07s2.PNG'  alt='hu07s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd07wv2.PNG'  alt='hu07wv2' width='100%'></td>
     </tr>
@@ -614,7 +614,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -639,7 +639,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
@@ -678,7 +678,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet012wv1.PNG'  alt='res01wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro012s1.PNG'  alt='pre01s1' width='100%'></td>
         <td> <img src='./img/preFro012wv1.PNG'  alt='pre01wv1' width='100%'></td>
     </tr>
@@ -688,7 +688,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs012wv1.PNG'  alt='hdemucs01wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd012s1.PNG'  alt='hu01s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd012wv1.PNG'  alt='hu01wv1' width='100%'></td>
     </tr>
@@ -714,7 +714,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/ResUNet012wv2.PNG'  alt='res01wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro012s2.PNG'  alt='pre01s2' width='100%'></td>
         <td> <img src='./img/preFro012wv2.PNG'  alt='pre01wv2' width='100%'></td>
     </tr>
@@ -724,7 +724,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
         <td> <img src='./img/HDemucs012wv2.PNG'  alt='hdemucs01wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd012s2.PNG'  alt='hu01s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd012wv2.PNG'  alt='hu01wv2' width='100%'></td>
     </tr>
@@ -740,7 +740,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -765,7 +765,7 @@ Since we aim at reducing the distortion of vocals and interference of accompanim
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>        
         <td align='center' width='30%'>
@@ -806,7 +806,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/ResUNet11wv1.PNG'  alt='res11wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro11s1.PNG'  alt='pre11s1' width='100%'></td>
         <td> <img src='./img/preFro11wv1.PNG'  alt='pre11wv1' width='100%'></td>
     </tr>
@@ -816,7 +816,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/HDemucs11wv1.PNG'  alt='hdemucs11wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd11s1.PNG'  alt='hu11s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd11wv1.PNG'  alt='hu11wv1' width='100%'></td>
     </tr>
@@ -842,7 +842,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/ResUNet11wv2.PNG'  alt='res11wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro11s2.PNG'  alt='pre11s2' width='100%'></td>
         <td> <img src='./img/preFro11wv2.PNG'  alt='pre11wv2' width='100%'></td>
     </tr>
@@ -852,7 +852,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/HDemucs11wv2.PNG'  alt='hdemucs11wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd11s2.PNG'  alt='hu11s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd11wv2.PNG'  alt='hu11wv2' width='100%'></td>
     </tr>
@@ -869,7 +869,7 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -894,7 +894,7 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
@@ -934,7 +934,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/ResUNet12wv1.PNG'  alt='res12wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro12s1.PNG'  alt='pre12s1' width='100%'></td>
         <td> <img src='./img/preFro12wv1.PNG'  alt='pre12wv1' width='100%'></td>
     </tr>
@@ -944,7 +944,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/HDemucs12wv1.PNG'  alt='hdemucs12wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd12s1.PNG'  alt='hu12s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd12wv1.PNG'  alt='hu12wv1' width='100%'></td>
     </tr>
@@ -970,7 +970,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/ResUNet12wv2.PNG'  alt='res12wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro12s2.PNG'  alt='pre12s2' width='100%'></td>
         <td> <img src='./img/preFro12wv2.PNG'  alt='pre12wv2' width='100%'></td>
     </tr>
@@ -980,7 +980,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/HDemucs12wv2.PNG'  alt='hdemucs12wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd12s2.PNG'  alt='hu12s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd12wv2.PNG'  alt='hu12wv2' width='100%'></td>
     </tr>
@@ -996,7 +996,7 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -1021,7 +1021,7 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
@@ -1060,7 +1060,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/ResUNet05wv1-1.PNG'  alt='res05wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro05s1.PNG'  alt='pre05s1' width='100%'></td>
         <td> <img src='./img/preFro05wv1.PNG'  alt='pre05wv1' width='100%'></td>
     </tr>
@@ -1070,7 +1070,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/HDemucs05wv1.PNG'  alt='hdemucs05wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd05s1.PNG'  alt='hu05s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd05wv1.PNG'  alt='hu05wv1' width='100%'></td>
     </tr>
@@ -1096,7 +1096,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/ResUNet05wv2-1.PNG'  alt='res05wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro05s2.PNG'  alt='pre05s2' width='100%'></td>
         <td> <img src='./img/preFro05wv2.PNG'  alt='pre05wv2' width='100%'></td>
     </tr>
@@ -1106,7 +1106,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/HDemucs05wv2.PNG'  alt='hdemucs05wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd05s2.PNG'  alt='hu05s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd05wv2.PNG'  alt='hu05wv2' width='100%'></td>
     </tr>
@@ -1122,7 +1122,7 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -1147,7 +1147,7 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
@@ -1186,7 +1186,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/ResUNet04wv1.PNG'  alt='res04wv1' width='100%'></td>
     </tr>
     <tr>
-        <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+        <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro04s1.PNG'  alt='pre04s1' width='100%'></td>
         <td> <img src='./img/preFro04wv1.PNG'  alt='pre04wv1' width='100%'></td>
     </tr>
@@ -1196,7 +1196,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/HDemucs04wv1.PNG'  alt='hdemucs04wv1' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd04s1.PNG'  alt='hu04s1' width='100%'></td>
         <td> <img src='./img/HDemucsUpd04wv1.PNG'  alt='hu04wv1' width='100%'></td>
     </tr>
@@ -1222,7 +1222,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/ResUNet04wv2.PNG'  alt='res04wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (ResUNetDecouple+)</b> </td>
+      <td align='center'> <b>VocEmb4SVS (ResUNetDecouple+)</b> </td>
         <td> <img src='./img/preFro04s2.PNG'  alt='pre04s2' width='100%'></td>
         <td> <img src='./img/preFro04wv2.PNG'  alt='pre04wv2' width='100%'></td>
     </tr>
@@ -1232,7 +1232,7 @@ In this part, we list music clips with sound effects. The results show that the 
         <td> <img src='./img/HDemucs04wv2.PNG'  alt='hdemucs04wv2' width='100%'></td>
     </tr>
     <tr>
-      <td align='center'> <b>VocEmb4Sep (HDemucs)</b></td>
+      <td align='center'> <b>VocEmb4SVS (HDemucs)</b></td>
         <td> <img src='./img/HDemucsUpd04s2.PNG'  alt='hu04s2' width='100%'></td>
         <td> <img src='./img/HDemucsUpd04wv2.PNG'  alt='hu04wv2' width='100%'></td>
     </tr>
@@ -1248,7 +1248,7 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
         <td align='center'>Mixture</td>
         <td align='center'>ResUNetDecouple+</td>
-        <td align='center'>VocEmb4Sep (ResUNetDecouple+)</td>
+        <td align='center'>VocEmb4SVS (ResUNetDecouple+)</td>
     </tr>
     <tr>
     	<td align='center' width='30%'>
@@ -1273,7 +1273,7 @@ In this part, we list music clips with sound effects. The results show that the 
     <tr>
     <td align='center'>Reference</td>
     <td align='center'>HDemucs</td>
-    <td align='center'>VocEmb4Sep (HDemucs)</td>
+    <td align='center'>VocEmb4SVS (HDemucs)</td>
     </tr>
     <tr>
         <td align='center' width='30%'>
