@@ -10,6 +10,8 @@ layout: default
 ### Abstract
 > Deep learning-based methods have shown promising performance on singing voice separation (SVS). Recently, embeddings related to lyrics and voice activities have been proven effective to improve the performance of SVS tasks. However, embeddings related to singers have never been studied before. In this paper, we propose VocEmb4SVS, an SVS framework to utilize vocal embeddings of the singer as auxiliary knowledge for SVS conditioning. First, a pre-trained separation network is employed to obtain pre-separated vocals from the mixed music signals. Second, a vocal encoder is trained to extract vocal embeddings from the pre-separated vocals. Finally, the vocal embeddings are integrated into the separation network to improve SVS performance. Experimental results show that our proposed method achieves state-of-the-art results on the MUSDB18 dataset with an SDR of 9.56 dB on vocals.
 
+**The paper link address is** [http://www.apsipa.org/proceedings/2022/APSIPA%202022/TuAM1-7/1570836845.pdf](http://www.apsipa.org/proceedings/2022/APSIPA%202022/TuAM1-7/1570836845.pdf).
+
 ---
 
 ## Introduction of the demo
